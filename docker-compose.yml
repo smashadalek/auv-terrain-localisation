@@ -1,0 +1,17 @@
+services:
+
+  ros2:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    container_name: auv_ros2_dev
+
+    volumes:
+      - .:/workspace
+
+    environment:
+      - DISPLAY=${DISPLAY}
+
+    stdin_open: true
+    tty: true
