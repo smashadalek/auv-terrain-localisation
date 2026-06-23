@@ -1,6 +1,7 @@
 services:
 
   ros2:
+
     build:
       context: .
       dockerfile: docker/Dockerfile
@@ -10,8 +11,12 @@ services:
     volumes:
       - .:/workspace
 
+    working_dir: /workspace
+
     environment:
       - DISPLAY=${DISPLAY}
 
     stdin_open: true
     tty: true
+
+    command: bash -c "cd /workspace && bash"
