@@ -1,0 +1,25 @@
+# ROS build files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# Simulation output
+*.bag
+*.db3
+results/
+plots/
+
+# Large datasets
+data/maps/
+data/raw/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
