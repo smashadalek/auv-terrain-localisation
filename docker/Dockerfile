@@ -8,6 +8,7 @@ RUN apt update && apt install -y \
     python3-rosdep \
     build-essential \
     cmake \
+    ros-jazzy-rviz2 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN rosdep init || true
