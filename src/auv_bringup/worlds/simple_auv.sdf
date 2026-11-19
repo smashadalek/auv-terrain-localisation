@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+
+  <world name="auv_world">
+
+    <!-- No underwater physics yet.
+         Zero gravity just lets our dummy AUV sit in space for this test. -->
+    <gravity>0 0 0</gravity>
+
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics"/>
+
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands"/>
+
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster"/>
+
+    <light type="directional" name="sun">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <model name="simple_auv">
+
+      <pose>0 0 0 0 0 0</pose>
+
+      <link name="base_link">
+
+        <inertial>
+          <mass>80.0</mass>
+          <inertia>
+            <ixx>10.0</ixx>
+            <iyy>30.0</iyy>
+            <izz>30.0</izz>
+          </inertia>
+        </inertial>
+
+        <!-- Simple cylindrical placeholder AUV -->
+        <collision name="body_collision">
+          <pose>0 0 0 0 1.5708 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.4</radius>
+              <length>2.5</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <visual name="body_visual">
+          <pose>0 0 0 0 1.5708 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.4</radius>
+              <length>2.5</length>
+            </cylinder>
+          </geometry>
+
+          <material>
+            <ambient>0.1 0.25 0.45 1</ambient>
+            <diffuse>0.1 0.25 0.45 1</diffuse>
+          </material>
+        </visual>
+
+      </link>
+
+      <!-- Ground-truth pose publisher.
+           AUTONOMY MUST NEVER CONSUME THIS. -->
+      <plugin
+        filename="gz-sim-pose-publisher-system"
+        name="gz::sim::systems::PosePublisher">
+
+        <publish_model_pose>true</publish_model_pose>
+        <publish_link_pose>false</publish_link_pose>
+
+        <use_pose_vector_msg>false</use_pose_vector_msg>
+
+        <update_frequency>20</update_frequency>
+
+        <topic>/simulation/ground_truth_pose</topic>
+
+      </plugin>
+
+    </model>
+
+  </world>
+
+</sdf>
