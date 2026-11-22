@@ -1,0 +1,19 @@
+terrain_manager:
+  ros__parameters:
+
+    world_name: auv_world
+
+    manifest: /workspace/data/manifests/reykjanes_4km_tiles.yaml
+    repo_root: /workspace
+
+    ground_truth_topic: /simulation/ground_truth_pose
+
+    # radius 1 = 3 x 3 active tiles
+    active_radius_tiles: 1
+
+    # Terrain management does not need a high update rate.
+    update_period_s: 0.5
+
+    # Keep the current centre tile until the AUV has moved
+    # this far beyond its nominal boundary.
+    hysteresis_margin_m: 500.0

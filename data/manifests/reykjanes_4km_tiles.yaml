@@ -1,0 +1,4487 @@
+dataset: gebco_2026_reykjanes
+tile_size_m: 4000.0
+source_spacing_m: 250.0
+render_samples: 65
+rows: 28
+cols: 16
+tiles:
+  - id: tile_r00_c00
+    row: 0
+    col: 0
+    x: -30000.000
+    y: 54000.000
+    z_min: -2262.375
+    z_max: -1900.751
+    z_range: 361.625
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c00.obj
+  - id: tile_r00_c01
+    row: 0
+    col: 1
+    x: -26000.000
+    y: 54000.000
+    z_min: -2154.335
+    z_max: -1822.991
+    z_range: 331.344
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c01.obj
+  - id: tile_r00_c02
+    row: 0
+    col: 2
+    x: -22000.000
+    y: 54000.000
+    z_min: -2512.107
+    z_max: -2050.303
+    z_range: 461.803
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c02.obj
+  - id: tile_r00_c03
+    row: 0
+    col: 3
+    x: -18000.000
+    y: 54000.000
+    z_min: -2583.146
+    z_max: -2171.778
+    z_range: 411.368
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c03.obj
+  - id: tile_r00_c04
+    row: 0
+    col: 4
+    x: -14000.000
+    y: 54000.000
+    z_min: -2605.823
+    z_max: -2349.743
+    z_range: 256.080
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c04.obj
+  - id: tile_r00_c05
+    row: 0
+    col: 5
+    x: -10000.000
+    y: 54000.000
+    z_min: -2556.176
+    z_max: -2300.085
+    z_range: 256.091
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c05.obj
+  - id: tile_r00_c06
+    row: 0
+    col: 6
+    x: -6000.000
+    y: 54000.000
+    z_min: -2549.976
+    z_max: -2264.556
+    z_range: 285.419
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c06.obj
+  - id: tile_r00_c07
+    row: 0
+    col: 7
+    x: -2000.000
+    y: 54000.000
+    z_min: -2584.061
+    z_max: -2301.828
+    z_range: 282.233
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c07.obj
+  - id: tile_r00_c08
+    row: 0
+    col: 8
+    x: 2000.000
+    y: 54000.000
+    z_min: -2658.937
+    z_max: -2378.846
+    z_range: 280.091
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c08.obj
+  - id: tile_r00_c09
+    row: 0
+    col: 9
+    x: 6000.000
+    y: 54000.000
+    z_min: -2732.758
+    z_max: -2544.998
+    z_range: 187.760
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c09.obj
+  - id: tile_r00_c10
+    row: 0
+    col: 10
+    x: 10000.000
+    y: 54000.000
+    z_min: -2799.000
+    z_max: -2668.908
+    z_range: 130.092
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c10.obj
+  - id: tile_r00_c11
+    row: 0
+    col: 11
+    x: 14000.000
+    y: 54000.000
+    z_min: -2795.148
+    z_max: -2720.791
+    z_range: 74.357
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c11.obj
+  - id: tile_r00_c12
+    row: 0
+    col: 12
+    x: 18000.000
+    y: 54000.000
+    z_min: -2742.804
+    z_max: -2544.643
+    z_range: 198.161
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c12.obj
+  - id: tile_r00_c13
+    row: 0
+    col: 13
+    x: 22000.000
+    y: 54000.000
+    z_min: -2668.624
+    z_max: -2297.938
+    z_range: 370.686
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c13.obj
+  - id: tile_r00_c14
+    row: 0
+    col: 14
+    x: 26000.000
+    y: 54000.000
+    z_min: -2449.281
+    z_max: -1939.802
+    z_range: 509.479
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c14.obj
+  - id: tile_r00_c15
+    row: 0
+    col: 15
+    x: 30000.000
+    y: 54000.000
+    z_min: -2170.178
+    z_max: -1897.977
+    z_range: 272.202
+    dem: data/processed/gazebo/tiles_4km/tile_r00_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r00_c15.obj
+  - id: tile_r01_c00
+    row: 1
+    col: 0
+    x: -30000.000
+    y: 50000.000
+    z_min: -2251.800
+    z_max: -2027.696
+    z_range: 224.104
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c00.obj
+  - id: tile_r01_c01
+    row: 1
+    col: 1
+    x: -26000.000
+    y: 50000.000
+    z_min: -2213.411
+    z_max: -1729.470
+    z_range: 483.941
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c01.obj
+  - id: tile_r01_c02
+    row: 1
+    col: 2
+    x: -22000.000
+    y: 50000.000
+    z_min: -2225.104
+    z_max: -1890.379
+    z_range: 334.725
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c02.obj
+  - id: tile_r01_c03
+    row: 1
+    col: 3
+    x: -18000.000
+    y: 50000.000
+    z_min: -2349.743
+    z_max: -2068.719
+    z_range: 281.024
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c03.obj
+  - id: tile_r01_c04
+    row: 1
+    col: 4
+    x: -14000.000
+    y: 50000.000
+    z_min: -2424.264
+    z_max: -2230.003
+    z_range: 194.261
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c04.obj
+  - id: tile_r01_c05
+    row: 1
+    col: 5
+    x: -10000.000
+    y: 50000.000
+    z_min: -2419.309
+    z_max: -2105.353
+    z_range: 313.956
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c05.obj
+  - id: tile_r01_c06
+    row: 1
+    col: 6
+    x: -6000.000
+    y: 50000.000
+    z_min: -2301.828
+    z_max: -2042.096
+    z_range: 259.733
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c06.obj
+  - id: tile_r01_c07
+    row: 1
+    col: 7
+    x: -2000.000
+    y: 50000.000
+    z_min: -2378.846
+    z_max: -2108.320
+    z_range: 270.526
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c07.obj
+  - id: tile_r01_c08
+    row: 1
+    col: 8
+    x: 2000.000
+    y: 50000.000
+    z_min: -2544.998
+    z_max: -2324.839
+    z_range: 220.158
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c08.obj
+  - id: tile_r01_c09
+    row: 1
+    col: 9
+    x: 6000.000
+    y: 50000.000
+    z_min: -2668.908
+    z_max: -2379.520
+    z_range: 289.389
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c09.obj
+  - id: tile_r01_c10
+    row: 1
+    col: 10
+    x: 10000.000
+    y: 50000.000
+    z_min: -2749.796
+    z_max: -2483.074
+    z_range: 266.721
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c10.obj
+  - id: tile_r01_c11
+    row: 1
+    col: 11
+    x: 14000.000
+    y: 50000.000
+    z_min: -2754.970
+    z_max: -2567.781
+    z_range: 187.189
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c11.obj
+  - id: tile_r01_c12
+    row: 1
+    col: 12
+    x: 18000.000
+    y: 50000.000
+    z_min: -2731.949
+    z_max: -2598.815
+    z_range: 133.135
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c12.obj
+  - id: tile_r01_c13
+    row: 1
+    col: 13
+    x: 22000.000
+    y: 50000.000
+    z_min: -2675.589
+    z_max: -2449.281
+    z_range: 226.308
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c13.obj
+  - id: tile_r01_c14
+    row: 1
+    col: 14
+    x: 26000.000
+    y: 50000.000
+    z_min: -2582.918
+    z_max: -1935.615
+    z_range: 647.304
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c14.obj
+  - id: tile_r01_c15
+    row: 1
+    col: 15
+    x: 30000.000
+    y: 50000.000
+    z_min: -2450.695
+    z_max: -1872.729
+    z_range: 577.966
+    dem: data/processed/gazebo/tiles_4km/tile_r01_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r01_c15.obj
+  - id: tile_r02_c00
+    row: 2
+    col: 0
+    x: -30000.000
+    y: 46000.000
+    z_min: -2170.918
+    z_max: -1748.993
+    z_range: 421.925
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c00.obj
+  - id: tile_r02_c01
+    row: 2
+    col: 1
+    x: -26000.000
+    y: 46000.000
+    z_min: -2036.745
+    z_max: -1706.173
+    z_range: 330.572
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c01.obj
+  - id: tile_r02_c02
+    row: 2
+    col: 2
+    x: -22000.000
+    y: 46000.000
+    z_min: -2202.755
+    z_max: -1791.265
+    z_range: 411.491
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c02.obj
+  - id: tile_r02_c03
+    row: 2
+    col: 3
+    x: -18000.000
+    y: 46000.000
+    z_min: -2297.315
+    z_max: -2025.461
+    z_range: 271.854
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c03.obj
+  - id: tile_r02_c04
+    row: 2
+    col: 4
+    x: -14000.000
+    y: 46000.000
+    z_min: -2266.448
+    z_max: -2052.833
+    z_range: 213.615
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c04.obj
+  - id: tile_r02_c05
+    row: 2
+    col: 5
+    x: -10000.000
+    y: 46000.000
+    z_min: -2265.767
+    z_max: -1858.270
+    z_range: 407.498
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c05.obj
+  - id: tile_r02_c06
+    row: 2
+    col: 6
+    x: -6000.000
+    y: 46000.000
+    z_min: -2108.320
+    z_max: -1814.239
+    z_range: 294.081
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c06.obj
+  - id: tile_r02_c07
+    row: 2
+    col: 7
+    x: -2000.000
+    y: 46000.000
+    z_min: -2324.839
+    z_max: -1939.741
+    z_range: 385.098
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c07.obj
+  - id: tile_r02_c08
+    row: 2
+    col: 8
+    x: 2000.000
+    y: 46000.000
+    z_min: -2379.520
+    z_max: -2216.422
+    z_range: 163.098
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c08.obj
+  - id: tile_r02_c09
+    row: 2
+    col: 9
+    x: 6000.000
+    y: 46000.000
+    z_min: -2483.074
+    z_max: -2216.433
+    z_range: 266.641
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c09.obj
+  - id: tile_r02_c10
+    row: 2
+    col: 10
+    x: 10000.000
+    y: 46000.000
+    z_min: -2567.781
+    z_max: -2309.773
+    z_range: 258.008
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c10.obj
+  - id: tile_r02_c11
+    row: 2
+    col: 11
+    x: 14000.000
+    y: 46000.000
+    z_min: -2598.815
+    z_max: -2445.276
+    z_range: 153.539
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c11.obj
+  - id: tile_r02_c12
+    row: 2
+    col: 12
+    x: 18000.000
+    y: 46000.000
+    z_min: -2622.665
+    z_max: -2447.025
+    z_range: 175.640
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c12.obj
+  - id: tile_r02_c13
+    row: 2
+    col: 13
+    x: 22000.000
+    y: 46000.000
+    z_min: -2621.197
+    z_max: -2478.897
+    z_range: 142.299
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c13.obj
+  - id: tile_r02_c14
+    row: 2
+    col: 14
+    x: 26000.000
+    y: 46000.000
+    z_min: -2667.976
+    z_max: -2450.695
+    z_range: 217.281
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c14.obj
+  - id: tile_r02_c15
+    row: 2
+    col: 15
+    x: 30000.000
+    y: 46000.000
+    z_min: -2667.921
+    z_max: -2295.843
+    z_range: 372.078
+    dem: data/processed/gazebo/tiles_4km/tile_r02_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r02_c15.obj
+  - id: tile_r03_c00
+    row: 3
+    col: 0
+    x: -30000.000
+    y: 42000.000
+    z_min: -1899.399
+    z_max: -1726.937
+    z_range: 172.462
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c00.obj
+  - id: tile_r03_c01
+    row: 3
+    col: 1
+    x: -26000.000
+    y: 42000.000
+    z_min: -1910.662
+    z_max: -1598.714
+    z_range: 311.948
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c01.obj
+  - id: tile_r03_c02
+    row: 3
+    col: 2
+    x: -22000.000
+    y: 42000.000
+    z_min: -2025.461
+    z_max: -1698.243
+    z_range: 327.218
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c02.obj
+  - id: tile_r03_c03
+    row: 3
+    col: 3
+    x: -18000.000
+    y: 42000.000
+    z_min: -2065.818
+    z_max: -1811.844
+    z_range: 253.974
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c03.obj
+  - id: tile_r03_c04
+    row: 3
+    col: 4
+    x: -14000.000
+    y: 42000.000
+    z_min: -2232.414
+    z_max: -1990.476
+    z_range: 241.937
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c04.obj
+  - id: tile_r03_c05
+    row: 3
+    col: 5
+    x: -10000.000
+    y: 42000.000
+    z_min: -2209.565
+    z_max: -1655.833
+    z_range: 553.732
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c05.obj
+  - id: tile_r03_c06
+    row: 3
+    col: 6
+    x: -6000.000
+    y: 42000.000
+    z_min: -1939.741
+    z_max: -1732.245
+    z_range: 207.496
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c06.obj
+  - id: tile_r03_c07
+    row: 3
+    col: 7
+    x: -2000.000
+    y: 42000.000
+    z_min: -2216.422
+    z_max: -1748.818
+    z_range: 467.603
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c07.obj
+  - id: tile_r03_c08
+    row: 3
+    col: 8
+    x: 2000.000
+    y: 42000.000
+    z_min: -2243.990
+    z_max: -2129.907
+    z_range: 114.083
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c08.obj
+  - id: tile_r03_c09
+    row: 3
+    col: 9
+    x: 6000.000
+    y: 42000.000
+    z_min: -2309.773
+    z_max: -2121.608
+    z_range: 188.165
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c09.obj
+  - id: tile_r03_c10
+    row: 3
+    col: 10
+    x: 10000.000
+    y: 42000.000
+    z_min: -2459.402
+    z_max: -2192.251
+    z_range: 267.151
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c10.obj
+  - id: tile_r03_c11
+    row: 3
+    col: 11
+    x: 14000.000
+    y: 42000.000
+    z_min: -2478.618
+    z_max: -2340.525
+    z_range: 138.093
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c11.obj
+  - id: tile_r03_c12
+    row: 3
+    col: 12
+    x: 18000.000
+    y: 42000.000
+    z_min: -2478.897
+    z_max: -2311.076
+    z_range: 167.821
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c12.obj
+  - id: tile_r03_c13
+    row: 3
+    col: 13
+    x: 22000.000
+    y: 42000.000
+    z_min: -2596.066
+    z_max: -2381.182
+    z_range: 214.884
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c13.obj
+  - id: tile_r03_c14
+    row: 3
+    col: 14
+    x: 26000.000
+    y: 42000.000
+    z_min: -2667.976
+    z_max: -2471.948
+    z_range: 196.029
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c14.obj
+  - id: tile_r03_c15
+    row: 3
+    col: 15
+    x: 30000.000
+    y: 42000.000
+    z_min: -2666.434
+    z_max: -2503.686
+    z_range: 162.749
+    dem: data/processed/gazebo/tiles_4km/tile_r03_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r03_c15.obj
+  - id: tile_r04_c00
+    row: 4
+    col: 0
+    x: -30000.000
+    y: 38000.000
+    z_min: -1796.676
+    z_max: -1496.347
+    z_range: 300.329
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c00.obj
+  - id: tile_r04_c01
+    row: 4
+    col: 1
+    x: -26000.000
+    y: 38000.000
+    z_min: -1726.937
+    z_max: -1535.964
+    z_range: 190.973
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c01.obj
+  - id: tile_r04_c02
+    row: 4
+    col: 2
+    x: -22000.000
+    y: 38000.000
+    z_min: -1811.844
+    z_max: -1566.221
+    z_range: 245.623
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c02.obj
+  - id: tile_r04_c03
+    row: 4
+    col: 3
+    x: -18000.000
+    y: 38000.000
+    z_min: -1990.476
+    z_max: -1707.274
+    z_range: 283.202
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c03.obj
+  - id: tile_r04_c04
+    row: 4
+    col: 4
+    x: -14000.000
+    y: 38000.000
+    z_min: -2082.039
+    z_max: -1847.114
+    z_range: 234.924
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c04.obj
+  - id: tile_r04_c05
+    row: 4
+    col: 5
+    x: -10000.000
+    y: 38000.000
+    z_min: -2032.124
+    z_max: -1566.983
+    z_range: 465.142
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c05.obj
+  - id: tile_r04_c06
+    row: 4
+    col: 6
+    x: -6000.000
+    y: 38000.000
+    z_min: -1849.294
+    z_max: -1463.629
+    z_range: 385.665
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c06.obj
+  - id: tile_r04_c07
+    row: 4
+    col: 7
+    x: -2000.000
+    y: 38000.000
+    z_min: -2129.907
+    z_max: -1604.051
+    z_range: 525.856
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c07.obj
+  - id: tile_r04_c08
+    row: 4
+    col: 8
+    x: 2000.000
+    y: 38000.000
+    z_min: -2183.093
+    z_max: -2016.794
+    z_range: 166.298
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c08.obj
+  - id: tile_r04_c09
+    row: 4
+    col: 9
+    x: 6000.000
+    y: 38000.000
+    z_min: -2192.251
+    z_max: -2096.497
+    z_range: 95.754
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c09.obj
+  - id: tile_r04_c10
+    row: 4
+    col: 10
+    x: 10000.000
+    y: 38000.000
+    z_min: -2370.120
+    z_max: -2165.726
+    z_range: 204.394
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c10.obj
+  - id: tile_r04_c11
+    row: 4
+    col: 11
+    x: 14000.000
+    y: 38000.000
+    z_min: -2395.917
+    z_max: -2201.267
+    z_range: 194.650
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c11.obj
+  - id: tile_r04_c12
+    row: 4
+    col: 12
+    x: 18000.000
+    y: 38000.000
+    z_min: -2381.655
+    z_max: -2283.151
+    z_range: 98.503
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c12.obj
+  - id: tile_r04_c13
+    row: 4
+    col: 13
+    x: 22000.000
+    y: 38000.000
+    z_min: -2471.948
+    z_max: -2371.584
+    z_range: 100.363
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c13.obj
+  - id: tile_r04_c14
+    row: 4
+    col: 14
+    x: 26000.000
+    y: 38000.000
+    z_min: -2503.686
+    z_max: -2349.598
+    z_range: 154.088
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c14.obj
+  - id: tile_r04_c15
+    row: 4
+    col: 15
+    x: 30000.000
+    y: 38000.000
+    z_min: -2641.569
+    z_max: -2362.961
+    z_range: 278.608
+    dem: data/processed/gazebo/tiles_4km/tile_r04_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r04_c15.obj
+  - id: tile_r05_c00
+    row: 5
+    col: 0
+    x: -30000.000
+    y: 34000.000
+    z_min: -1616.595
+    z_max: -1342.349
+    z_range: 274.247
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c00.obj
+  - id: tile_r05_c01
+    row: 5
+    col: 1
+    x: -26000.000
+    y: 34000.000
+    z_min: -1720.682
+    z_max: -1315.270
+    z_range: 405.413
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c01.obj
+  - id: tile_r05_c02
+    row: 5
+    col: 2
+    x: -22000.000
+    y: 34000.000
+    z_min: -1786.798
+    z_max: -1332.402
+    z_range: 454.396
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c02.obj
+  - id: tile_r05_c03
+    row: 5
+    col: 3
+    x: -18000.000
+    y: 34000.000
+    z_min: -1937.484
+    z_max: -1693.549
+    z_range: 243.935
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c03.obj
+  - id: tile_r05_c04
+    row: 5
+    col: 4
+    x: -14000.000
+    y: 34000.000
+    z_min: -1957.807
+    z_max: -1758.831
+    z_range: 198.976
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c04.obj
+  - id: tile_r05_c05
+    row: 5
+    col: 5
+    x: -10000.000
+    y: 34000.000
+    z_min: -1847.114
+    z_max: -1445.027
+    z_range: 402.087
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c05.obj
+  - id: tile_r05_c06
+    row: 5
+    col: 6
+    x: -6000.000
+    y: 34000.000
+    z_min: -1768.801
+    z_max: -1465.983
+    z_range: 302.818
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c06.obj
+  - id: tile_r05_c07
+    row: 5
+    col: 7
+    x: -2000.000
+    y: 34000.000
+    z_min: -2110.518
+    z_max: -1689.264
+    z_range: 421.254
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c07.obj
+  - id: tile_r05_c08
+    row: 5
+    col: 8
+    x: 2000.000
+    y: 34000.000
+    z_min: -2201.651
+    z_max: -1956.912
+    z_range: 244.738
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c08.obj
+  - id: tile_r05_c09
+    row: 5
+    col: 9
+    x: 6000.000
+    y: 34000.000
+    z_min: -2221.202
+    z_max: -2121.519
+    z_range: 99.683
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c09.obj
+  - id: tile_r05_c10
+    row: 5
+    col: 10
+    x: 10000.000
+    y: 34000.000
+    z_min: -2201.267
+    z_max: -1960.746
+    z_range: 240.521
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c10.obj
+  - id: tile_r05_c11
+    row: 5
+    col: 11
+    x: 14000.000
+    y: 34000.000
+    z_min: -2283.151
+    z_max: -1960.746
+    z_range: 322.405
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c11.obj
+  - id: tile_r05_c12
+    row: 5
+    col: 12
+    x: 18000.000
+    y: 34000.000
+    z_min: -2381.244
+    z_max: -2179.434
+    z_range: 201.810
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c12.obj
+  - id: tile_r05_c13
+    row: 5
+    col: 13
+    x: 22000.000
+    y: 34000.000
+    z_min: -2400.803
+    z_max: -2247.751
+    z_range: 153.052
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c13.obj
+  - id: tile_r05_c14
+    row: 5
+    col: 14
+    x: 26000.000
+    y: 34000.000
+    z_min: -2388.389
+    z_max: -2270.698
+    z_range: 117.691
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c14.obj
+  - id: tile_r05_c15
+    row: 5
+    col: 15
+    x: 30000.000
+    y: 34000.000
+    z_min: -2566.582
+    z_max: -2293.626
+    z_range: 272.957
+    dem: data/processed/gazebo/tiles_4km/tile_r05_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r05_c15.obj
+  - id: tile_r06_c00
+    row: 6
+    col: 0
+    x: -30000.000
+    y: 30000.000
+    z_min: -1461.669
+    z_max: -1346.976
+    z_range: 114.693
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c00.obj
+  - id: tile_r06_c01
+    row: 6
+    col: 1
+    x: -26000.000
+    y: 30000.000
+    z_min: -1527.321
+    z_max: -1264.022
+    z_range: 263.299
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c01.obj
+  - id: tile_r06_c02
+    row: 6
+    col: 2
+    x: -22000.000
+    y: 30000.000
+    z_min: -1790.625
+    z_max: -1309.782
+    z_range: 480.842
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c02.obj
+  - id: tile_r06_c03
+    row: 6
+    col: 3
+    x: -18000.000
+    y: 30000.000
+    z_min: -1945.651
+    z_max: -1665.513
+    z_range: 280.138
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c03.obj
+  - id: tile_r06_c04
+    row: 6
+    col: 4
+    x: -14000.000
+    y: 30000.000
+    z_min: -2095.743
+    z_max: -1682.742
+    z_range: 413.002
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c04.obj
+  - id: tile_r06_c05
+    row: 6
+    col: 5
+    x: -10000.000
+    y: 30000.000
+    z_min: -1767.187
+    z_max: -1371.937
+    z_range: 395.250
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c05.obj
+  - id: tile_r06_c06
+    row: 6
+    col: 6
+    x: -6000.000
+    y: 30000.000
+    z_min: -1802.736
+    z_max: -1390.656
+    z_range: 412.079
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c06.obj
+  - id: tile_r06_c07
+    row: 6
+    col: 7
+    x: -2000.000
+    y: 30000.000
+    z_min: -2160.624
+    z_max: -1768.801
+    z_range: 391.823
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c07.obj
+  - id: tile_r06_c08
+    row: 6
+    col: 8
+    x: 2000.000
+    y: 30000.000
+    z_min: -2224.090
+    z_max: -2103.277
+    z_range: 120.813
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c08.obj
+  - id: tile_r06_c09
+    row: 6
+    col: 9
+    x: 6000.000
+    y: 30000.000
+    z_min: -2268.599
+    z_max: -2038.131
+    z_range: 230.469
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c09.obj
+  - id: tile_r06_c10
+    row: 6
+    col: 10
+    x: 10000.000
+    y: 30000.000
+    z_min: -2155.300
+    z_max: -1779.797
+    z_range: 375.503
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c10.obj
+  - id: tile_r06_c11
+    row: 6
+    col: 11
+    x: 14000.000
+    y: 30000.000
+    z_min: -2179.434
+    z_max: -1771.745
+    z_range: 407.690
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c11.obj
+  - id: tile_r06_c12
+    row: 6
+    col: 12
+    x: 18000.000
+    y: 30000.000
+    z_min: -2250.282
+    z_max: -2043.621
+    z_range: 206.661
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c12.obj
+  - id: tile_r06_c13
+    row: 6
+    col: 13
+    x: 22000.000
+    y: 30000.000
+    z_min: -2272.981
+    z_max: -2133.615
+    z_range: 139.365
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c13.obj
+  - id: tile_r06_c14
+    row: 6
+    col: 14
+    x: 26000.000
+    y: 30000.000
+    z_min: -2293.626
+    z_max: -2115.196
+    z_range: 178.430
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c14.obj
+  - id: tile_r06_c15
+    row: 6
+    col: 15
+    x: 30000.000
+    y: 30000.000
+    z_min: -2479.447
+    z_max: -2170.271
+    z_range: 309.176
+    dem: data/processed/gazebo/tiles_4km/tile_r06_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r06_c15.obj
+  - id: tile_r07_c00
+    row: 7
+    col: 0
+    x: -30000.000
+    y: 26000.000
+    z_min: -1457.510
+    z_max: -1365.216
+    z_range: 92.294
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c00.obj
+  - id: tile_r07_c01
+    row: 7
+    col: 1
+    x: -26000.000
+    y: 26000.000
+    z_min: -1721.866
+    z_max: -1405.196
+    z_range: 316.670
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c01.obj
+  - id: tile_r07_c02
+    row: 7
+    col: 2
+    x: -22000.000
+    y: 26000.000
+    z_min: -1807.900
+    z_max: -1527.321
+    z_range: 280.579
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c02.obj
+  - id: tile_r07_c03
+    row: 7
+    col: 3
+    x: -18000.000
+    y: 26000.000
+    z_min: -2002.864
+    z_max: -1706.456
+    z_range: 296.408
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c03.obj
+  - id: tile_r07_c04
+    row: 7
+    col: 4
+    x: -14000.000
+    y: 26000.000
+    z_min: -2167.503
+    z_max: -1300.997
+    z_range: 866.506
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c04.obj
+  - id: tile_r07_c05
+    row: 7
+    col: 5
+    x: -10000.000
+    y: 26000.000
+    z_min: -1682.742
+    z_max: -1231.307
+    z_range: 451.435
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c05.obj
+  - id: tile_r07_c06
+    row: 7
+    col: 6
+    x: -6000.000
+    y: 26000.000
+    z_min: -1800.505
+    z_max: -1385.695
+    z_range: 414.810
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c06.obj
+  - id: tile_r07_c07
+    row: 7
+    col: 7
+    x: -2000.000
+    y: 26000.000
+    z_min: -2103.277
+    z_max: -1723.658
+    z_range: 379.619
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c07.obj
+  - id: tile_r07_c08
+    row: 7
+    col: 8
+    x: 2000.000
+    y: 26000.000
+    z_min: -2196.272
+    z_max: -1799.689
+    z_range: 396.583
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c08.obj
+  - id: tile_r07_c09
+    row: 7
+    col: 9
+    x: 6000.000
+    y: 26000.000
+    z_min: -2196.272
+    z_max: -1957.674
+    z_range: 238.598
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c09.obj
+  - id: tile_r07_c10
+    row: 7
+    col: 10
+    x: 10000.000
+    y: 26000.000
+    z_min: -2092.848
+    z_max: -1744.142
+    z_range: 348.706
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c10.obj
+  - id: tile_r07_c11
+    row: 7
+    col: 11
+    x: 14000.000
+    y: 26000.000
+    z_min: -2043.621
+    z_max: -1720.415
+    z_range: 323.207
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c11.obj
+  - id: tile_r07_c12
+    row: 7
+    col: 12
+    x: 18000.000
+    y: 26000.000
+    z_min: -2287.834
+    z_max: -2014.896
+    z_range: 272.938
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c12.obj
+  - id: tile_r07_c13
+    row: 7
+    col: 13
+    x: 22000.000
+    y: 26000.000
+    z_min: -2280.119
+    z_max: -2092.335
+    z_range: 187.784
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c13.obj
+  - id: tile_r07_c14
+    row: 7
+    col: 14
+    x: 26000.000
+    y: 26000.000
+    z_min: -2170.271
+    z_max: -1953.152
+    z_range: 217.119
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c14.obj
+  - id: tile_r07_c15
+    row: 7
+    col: 15
+    x: 30000.000
+    y: 26000.000
+    z_min: -2432.243
+    z_max: -2010.819
+    z_range: 421.424
+    dem: data/processed/gazebo/tiles_4km/tile_r07_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r07_c15.obj
+  - id: tile_r08_c00
+    row: 8
+    col: 0
+    x: -30000.000
+    y: 22000.000
+    z_min: -1463.023
+    z_max: -1297.424
+    z_range: 165.599
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c00.obj
+  - id: tile_r08_c01
+    row: 8
+    col: 1
+    x: -26000.000
+    y: 22000.000
+    z_min: -2125.096
+    z_max: -1296.559
+    z_range: 828.537
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c01.obj
+  - id: tile_r08_c02
+    row: 8
+    col: 2
+    x: -22000.000
+    y: 22000.000
+    z_min: -2161.386
+    z_max: -1721.866
+    z_range: 439.520
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c02.obj
+  - id: tile_r08_c03
+    row: 8
+    col: 3
+    x: -18000.000
+    y: 22000.000
+    z_min: -2161.106
+    z_max: -1774.313
+    z_range: 386.793
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c03.obj
+  - id: tile_r08_c04
+    row: 8
+    col: 4
+    x: -14000.000
+    y: 22000.000
+    z_min: -2161.106
+    z_max: -1282.432
+    z_range: 878.673
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c04.obj
+  - id: tile_r08_c05
+    row: 8
+    col: 5
+    x: -10000.000
+    y: 22000.000
+    z_min: -1780.271
+    z_max: -1206.190
+    z_range: 574.081
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c05.obj
+  - id: tile_r08_c06
+    row: 8
+    col: 6
+    x: -6000.000
+    y: 22000.000
+    z_min: -1723.658
+    z_max: -1411.573
+    z_range: 312.085
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c06.obj
+  - id: tile_r08_c07
+    row: 8
+    col: 7
+    x: -2000.000
+    y: 22000.000
+    z_min: -1799.689
+    z_max: -1635.925
+    z_range: 163.764
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c07.obj
+  - id: tile_r08_c08
+    row: 8
+    col: 8
+    x: 2000.000
+    y: 22000.000
+    z_min: -1989.445
+    z_max: -1645.089
+    z_range: 344.357
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c08.obj
+  - id: tile_r08_c09
+    row: 8
+    col: 9
+    x: 6000.000
+    y: 22000.000
+    z_min: -2007.411
+    z_max: -1773.042
+    z_range: 234.370
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c09.obj
+  - id: tile_r08_c10
+    row: 8
+    col: 10
+    x: 10000.000
+    y: 22000.000
+    z_min: -1957.674
+    z_max: -1795.637
+    z_range: 162.036
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c10.obj
+  - id: tile_r08_c11
+    row: 8
+    col: 11
+    x: 14000.000
+    y: 22000.000
+    z_min: -2169.694
+    z_max: -1828.577
+    z_range: 341.117
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c11.obj
+  - id: tile_r08_c12
+    row: 8
+    col: 12
+    x: 18000.000
+    y: 22000.000
+    z_min: -2285.992
+    z_max: -2025.141
+    z_range: 260.851
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c12.obj
+  - id: tile_r08_c13
+    row: 8
+    col: 13
+    x: 22000.000
+    y: 22000.000
+    z_min: -2271.916
+    z_max: -2024.050
+    z_range: 247.866
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c13.obj
+  - id: tile_r08_c14
+    row: 8
+    col: 14
+    x: 26000.000
+    y: 22000.000
+    z_min: -2140.024
+    z_max: -1945.135
+    z_range: 194.890
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c14.obj
+  - id: tile_r08_c15
+    row: 8
+    col: 15
+    x: 30000.000
+    y: 22000.000
+    z_min: -2507.969
+    z_max: -2043.975
+    z_range: 463.994
+    dem: data/processed/gazebo/tiles_4km/tile_r08_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r08_c15.obj
+  - id: tile_r09_c00
+    row: 9
+    col: 0
+    x: -30000.000
+    y: 18000.000
+    z_min: -1675.539
+    z_max: -968.221
+    z_range: 707.318
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c00.obj
+  - id: tile_r09_c01
+    row: 9
+    col: 1
+    x: -26000.000
+    y: 18000.000
+    z_min: -2197.769
+    z_max: -927.510
+    z_range: 1270.259
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c01.obj
+  - id: tile_r09_c02
+    row: 9
+    col: 2
+    x: -22000.000
+    y: 18000.000
+    z_min: -2244.103
+    z_max: -1416.400
+    z_range: 827.703
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c02.obj
+  - id: tile_r09_c03
+    row: 9
+    col: 3
+    x: -18000.000
+    y: 18000.000
+    z_min: -2313.412
+    z_max: -1484.283
+    z_range: 829.130
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c03.obj
+  - id: tile_r09_c04
+    row: 9
+    col: 4
+    x: -14000.000
+    y: 18000.000
+    z_min: -2445.132
+    z_max: -1780.271
+    z_range: 664.861
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c04.obj
+  - id: tile_r09_c05
+    row: 9
+    col: 5
+    x: -10000.000
+    y: 18000.000
+    z_min: -2233.914
+    z_max: -1480.571
+    z_range: 753.343
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c05.obj
+  - id: tile_r09_c06
+    row: 9
+    col: 6
+    x: -6000.000
+    y: 18000.000
+    z_min: -2039.314
+    z_max: -1401.596
+    z_range: 637.718
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c06.obj
+  - id: tile_r09_c07
+    row: 9
+    col: 7
+    x: -2000.000
+    y: 18000.000
+    z_min: -2044.714
+    z_max: -1635.925
+    z_range: 408.789
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c07.obj
+  - id: tile_r09_c08
+    row: 9
+    col: 8
+    x: 2000.000
+    y: 18000.000
+    z_min: -2059.020
+    z_max: -1578.968
+    z_range: 480.052
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c08.obj
+  - id: tile_r09_c09
+    row: 9
+    col: 9
+    x: 6000.000
+    y: 18000.000
+    z_min: -1935.762
+    z_max: -1714.155
+    z_range: 221.607
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c09.obj
+  - id: tile_r09_c10
+    row: 9
+    col: 10
+    x: 10000.000
+    y: 18000.000
+    z_min: -1912.974
+    z_max: -1714.155
+    z_range: 198.818
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c10.obj
+  - id: tile_r09_c11
+    row: 9
+    col: 11
+    x: 14000.000
+    y: 18000.000
+    z_min: -2184.406
+    z_max: -1788.202
+    z_range: 396.204
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c11.obj
+  - id: tile_r09_c12
+    row: 9
+    col: 12
+    x: 18000.000
+    y: 18000.000
+    z_min: -2315.305
+    z_max: -2164.900
+    z_range: 150.405
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c12.obj
+  - id: tile_r09_c13
+    row: 9
+    col: 13
+    x: 22000.000
+    y: 18000.000
+    z_min: -2214.971
+    z_max: -1936.790
+    z_range: 278.181
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c13.obj
+  - id: tile_r09_c14
+    row: 9
+    col: 14
+    x: 26000.000
+    y: 18000.000
+    z_min: -2185.445
+    z_max: -1936.344
+    z_range: 249.100
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c14.obj
+  - id: tile_r09_c15
+    row: 9
+    col: 15
+    x: 30000.000
+    y: 18000.000
+    z_min: -2708.998
+    z_max: -2139.949
+    z_range: 569.049
+    dem: data/processed/gazebo/tiles_4km/tile_r09_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r09_c15.obj
+  - id: tile_r10_c00
+    row: 10
+    col: 0
+    x: -30000.000
+    y: 14000.000
+    z_min: -1366.472
+    z_max: -921.563
+    z_range: 444.909
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c00.obj
+  - id: tile_r10_c01
+    row: 10
+    col: 1
+    x: -26000.000
+    y: 14000.000
+    z_min: -1437.626
+    z_max: -894.949
+    z_range: 542.677
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c01.obj
+  - id: tile_r10_c02
+    row: 10
+    col: 2
+    x: -22000.000
+    y: 14000.000
+    z_min: -2149.508
+    z_max: -1295.328
+    z_range: 854.180
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c02.obj
+  - id: tile_r10_c03
+    row: 10
+    col: 3
+    x: -18000.000
+    y: 14000.000
+    z_min: -2301.889
+    z_max: -1673.500
+    z_range: 628.389
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c03.obj
+  - id: tile_r10_c04
+    row: 10
+    col: 4
+    x: -14000.000
+    y: 14000.000
+    z_min: -2324.510
+    z_max: -2004.936
+    z_range: 319.574
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c04.obj
+  - id: tile_r10_c05
+    row: 10
+    col: 5
+    x: -10000.000
+    y: 14000.000
+    z_min: -2246.883
+    z_max: -2015.185
+    z_range: 231.697
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c05.obj
+  - id: tile_r10_c06
+    row: 10
+    col: 6
+    x: -6000.000
+    y: 14000.000
+    z_min: -2198.563
+    z_max: -1673.035
+    z_range: 525.528
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c06.obj
+  - id: tile_r10_c07
+    row: 10
+    col: 7
+    x: -2000.000
+    y: 14000.000
+    z_min: -2025.484
+    z_max: -1507.701
+    z_range: 517.783
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c07.obj
+  - id: tile_r10_c08
+    row: 10
+    col: 8
+    x: 2000.000
+    y: 14000.000
+    z_min: -2036.218
+    z_max: -1738.256
+    z_range: 297.962
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c08.obj
+  - id: tile_r10_c09
+    row: 10
+    col: 9
+    x: 6000.000
+    y: 14000.000
+    z_min: -1947.072
+    z_max: -1841.035
+    z_range: 106.036
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c09.obj
+  - id: tile_r10_c10
+    row: 10
+    col: 10
+    x: 10000.000
+    y: 14000.000
+    z_min: -1923.115
+    z_max: -1773.979
+    z_range: 149.136
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c10.obj
+  - id: tile_r10_c11
+    row: 10
+    col: 11
+    x: 14000.000
+    y: 14000.000
+    z_min: -2164.900
+    z_max: -1788.202
+    z_range: 376.698
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c11.obj
+  - id: tile_r10_c12
+    row: 10
+    col: 12
+    x: 18000.000
+    y: 14000.000
+    z_min: -2278.590
+    z_max: -2022.961
+    z_range: 255.629
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c12.obj
+  - id: tile_r10_c13
+    row: 10
+    col: 13
+    x: 22000.000
+    y: 14000.000
+    z_min: -2166.783
+    z_max: -1931.763
+    z_range: 235.021
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c13.obj
+  - id: tile_r10_c14
+    row: 10
+    col: 14
+    x: 26000.000
+    y: 14000.000
+    z_min: -2286.396
+    z_max: -1931.427
+    z_range: 354.969
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c14.obj
+  - id: tile_r10_c15
+    row: 10
+    col: 15
+    x: 30000.000
+    y: 14000.000
+    z_min: -2711.176
+    z_max: -2185.445
+    z_range: 525.731
+    dem: data/processed/gazebo/tiles_4km/tile_r10_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r10_c15.obj
+  - id: tile_r11_c00
+    row: 11
+    col: 0
+    x: -30000.000
+    y: 10000.000
+    z_min: -1314.697
+    z_max: -961.193
+    z_range: 353.504
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c00.obj
+  - id: tile_r11_c01
+    row: 11
+    col: 1
+    x: -26000.000
+    y: 10000.000
+    z_min: -1573.276
+    z_max: -1094.889
+    z_range: 478.387
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c01.obj
+  - id: tile_r11_c02
+    row: 11
+    col: 2
+    x: -22000.000
+    y: 10000.000
+    z_min: -2092.439
+    z_max: -1437.626
+    z_range: 654.813
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c02.obj
+  - id: tile_r11_c03
+    row: 11
+    col: 3
+    x: -18000.000
+    y: 10000.000
+    z_min: -2158.185
+    z_max: -1713.872
+    z_range: 444.312
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c03.obj
+  - id: tile_r11_c04
+    row: 11
+    col: 4
+    x: -14000.000
+    y: 10000.000
+    z_min: -2118.317
+    z_max: -1598.379
+    z_range: 519.938
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c04.obj
+  - id: tile_r11_c05
+    row: 11
+    col: 5
+    x: -10000.000
+    y: 10000.000
+    z_min: -2311.929
+    z_max: -1795.044
+    z_range: 516.885
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c05.obj
+  - id: tile_r11_c06
+    row: 11
+    col: 6
+    x: -6000.000
+    y: 10000.000
+    z_min: -2349.868
+    z_max: -1771.604
+    z_range: 578.263
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c06.obj
+  - id: tile_r11_c07
+    row: 11
+    col: 7
+    x: -2000.000
+    y: 10000.000
+    z_min: -2263.146
+    z_max: -1638.218
+    z_range: 624.928
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c07.obj
+  - id: tile_r11_c08
+    row: 11
+    col: 8
+    x: 2000.000
+    y: 10000.000
+    z_min: -2051.875
+    z_max: -1744.451
+    z_range: 307.424
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c08.obj
+  - id: tile_r11_c09
+    row: 11
+    col: 9
+    x: 6000.000
+    y: 10000.000
+    z_min: -1949.132
+    z_max: -1835.893
+    z_range: 113.240
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c09.obj
+  - id: tile_r11_c10
+    row: 11
+    col: 10
+    x: 10000.000
+    y: 10000.000
+    z_min: -1928.277
+    z_max: -1880.134
+    z_range: 48.142
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c10.obj
+  - id: tile_r11_c11
+    row: 11
+    col: 11
+    x: 14000.000
+    y: 10000.000
+    z_min: -2026.269
+    z_max: -1811.002
+    z_range: 215.267
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c11.obj
+  - id: tile_r11_c12
+    row: 11
+    col: 12
+    x: 18000.000
+    y: 10000.000
+    z_min: -2069.062
+    z_max: -1694.593
+    z_range: 374.469
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c12.obj
+  - id: tile_r11_c13
+    row: 11
+    col: 13
+    x: 22000.000
+    y: 10000.000
+    z_min: -2048.496
+    z_max: -1654.495
+    z_range: 394.001
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c13.obj
+  - id: tile_r11_c14
+    row: 11
+    col: 14
+    x: 26000.000
+    y: 10000.000
+    z_min: -2281.832
+    z_max: -1861.178
+    z_range: 420.654
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c14.obj
+  - id: tile_r11_c15
+    row: 11
+    col: 15
+    x: 30000.000
+    y: 10000.000
+    z_min: -2436.644
+    z_max: -2245.619
+    z_range: 191.025
+    dem: data/processed/gazebo/tiles_4km/tile_r11_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r11_c15.obj
+  - id: tile_r12_c00
+    row: 12
+    col: 0
+    x: -30000.000
+    y: 6000.000
+    z_min: -1317.413
+    z_max: -966.542
+    z_range: 350.871
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c00.obj
+  - id: tile_r12_c01
+    row: 12
+    col: 1
+    x: -26000.000
+    y: 6000.000
+    z_min: -1575.229
+    z_max: -1222.350
+    z_range: 352.879
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c01.obj
+  - id: tile_r12_c02
+    row: 12
+    col: 2
+    x: -22000.000
+    y: 6000.000
+    z_min: -1790.520
+    z_max: -1461.671
+    z_range: 328.849
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c02.obj
+  - id: tile_r12_c03
+    row: 12
+    col: 3
+    x: -18000.000
+    y: 6000.000
+    z_min: -1791.059
+    z_max: -1404.807
+    z_range: 386.251
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c03.obj
+  - id: tile_r12_c04
+    row: 12
+    col: 4
+    x: -14000.000
+    y: 6000.000
+    z_min: -1795.044
+    z_max: -1307.242
+    z_range: 487.802
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c04.obj
+  - id: tile_r12_c05
+    row: 12
+    col: 5
+    x: -10000.000
+    y: 6000.000
+    z_min: -2444.072
+    z_max: -1579.628
+    z_range: 864.444
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c05.obj
+  - id: tile_r12_c06
+    row: 12
+    col: 6
+    x: -6000.000
+    y: 6000.000
+    z_min: -2621.287
+    z_max: -2263.146
+    z_range: 358.141
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c06.obj
+  - id: tile_r12_c07
+    row: 12
+    col: 7
+    x: -2000.000
+    y: 6000.000
+    z_min: -2626.409
+    z_max: -2051.875
+    z_range: 574.533
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c07.obj
+  - id: tile_r12_c08
+    row: 12
+    col: 8
+    x: 2000.000
+    y: 6000.000
+    z_min: -2565.174
+    z_max: -1864.055
+    z_range: 701.119
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c08.obj
+  - id: tile_r12_c09
+    row: 12
+    col: 9
+    x: 6000.000
+    y: 6000.000
+    z_min: -2270.062
+    z_max: -1827.778
+    z_range: 442.284
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c09.obj
+  - id: tile_r12_c10
+    row: 12
+    col: 10
+    x: 10000.000
+    y: 6000.000
+    z_min: -1929.543
+    z_max: -1825.747
+    z_range: 103.796
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c10.obj
+  - id: tile_r12_c11
+    row: 12
+    col: 11
+    x: 14000.000
+    y: 6000.000
+    z_min: -1881.992
+    z_max: -1713.277
+    z_range: 168.715
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c11.obj
+  - id: tile_r12_c12
+    row: 12
+    col: 12
+    x: 18000.000
+    y: 6000.000
+    z_min: -1811.002
+    z_max: -1489.572
+    z_range: 321.430
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c12.obj
+  - id: tile_r12_c13
+    row: 12
+    col: 13
+    x: 22000.000
+    y: 6000.000
+    z_min: -1861.178
+    z_max: -1495.610
+    z_range: 365.568
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c13.obj
+  - id: tile_r12_c14
+    row: 12
+    col: 14
+    x: 26000.000
+    y: 6000.000
+    z_min: -2245.619
+    z_max: -1751.264
+    z_range: 494.355
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c14.obj
+  - id: tile_r12_c15
+    row: 12
+    col: 15
+    x: 30000.000
+    y: 6000.000
+    z_min: -2348.974
+    z_max: -2182.753
+    z_range: 166.221
+    dem: data/processed/gazebo/tiles_4km/tile_r12_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r12_c15.obj
+  - id: tile_r13_c00
+    row: 13
+    col: 0
+    x: -30000.000
+    y: 2000.000
+    z_min: -1393.947
+    z_max: -949.301
+    z_range: 444.646
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c00.obj
+  - id: tile_r13_c01
+    row: 13
+    col: 1
+    x: -26000.000
+    y: 2000.000
+    z_min: -1461.671
+    z_max: -1201.936
+    z_range: 259.735
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c01.obj
+  - id: tile_r13_c02
+    row: 13
+    col: 2
+    x: -22000.000
+    y: 2000.000
+    z_min: -1533.334
+    z_max: -1341.442
+    z_range: 191.892
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c02.obj
+  - id: tile_r13_c03
+    row: 13
+    col: 3
+    x: -18000.000
+    y: 2000.000
+    z_min: -1481.699
+    z_max: -1256.447
+    z_range: 225.252
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c03.obj
+  - id: tile_r13_c04
+    row: 13
+    col: 4
+    x: -14000.000
+    y: 2000.000
+    z_min: -1579.628
+    z_max: -1143.335
+    z_range: 436.293
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c04.obj
+  - id: tile_r13_c05
+    row: 13
+    col: 5
+    x: -10000.000
+    y: 2000.000
+    z_min: -2465.589
+    z_max: -1558.977
+    z_range: 906.612
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c05.obj
+  - id: tile_r13_c06
+    row: 13
+    col: 6
+    x: -6000.000
+    y: 2000.000
+    z_min: -2660.588
+    z_max: -2444.072
+    z_range: 216.515
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c06.obj
+  - id: tile_r13_c07
+    row: 13
+    col: 7
+    x: -2000.000
+    y: 2000.000
+    z_min: -2701.221
+    z_max: -2558.454
+    z_range: 142.767
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c07.obj
+  - id: tile_r13_c08
+    row: 13
+    col: 8
+    x: 2000.000
+    y: 2000.000
+    z_min: -2696.523
+    z_max: -2270.062
+    z_range: 426.461
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c08.obj
+  - id: tile_r13_c09
+    row: 13
+    col: 9
+    x: 6000.000
+    y: 2000.000
+    z_min: -2529.501
+    z_max: -1713.054
+    z_range: 816.447
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c09.obj
+  - id: tile_r13_c10
+    row: 13
+    col: 10
+    x: 10000.000
+    y: 2000.000
+    z_min: -2331.779
+    z_max: -1744.579
+    z_range: 587.200
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c10.obj
+  - id: tile_r13_c11
+    row: 13
+    col: 11
+    x: 14000.000
+    y: 2000.000
+    z_min: -1850.753
+    z_max: -1654.934
+    z_range: 195.819
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c11.obj
+  - id: tile_r13_c12
+    row: 13
+    col: 12
+    x: 18000.000
+    y: 2000.000
+    z_min: -1713.277
+    z_max: -1359.903
+    z_range: 353.374
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c12.obj
+  - id: tile_r13_c13
+    row: 13
+    col: 13
+    x: 22000.000
+    y: 2000.000
+    z_min: -1897.357
+    z_max: -1336.539
+    z_range: 560.818
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c13.obj
+  - id: tile_r13_c14
+    row: 13
+    col: 14
+    x: 26000.000
+    y: 2000.000
+    z_min: -2253.822
+    z_max: -1757.562
+    z_range: 496.260
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c14.obj
+  - id: tile_r13_c15
+    row: 13
+    col: 15
+    x: 30000.000
+    y: 2000.000
+    z_min: -2218.562
+    z_max: -1930.068
+    z_range: 288.494
+    dem: data/processed/gazebo/tiles_4km/tile_r13_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r13_c15.obj
+  - id: tile_r14_c00
+    row: 14
+    col: 0
+    x: -30000.000
+    y: -2000.000
+    z_min: -1815.350
+    z_max: -1209.959
+    z_range: 605.391
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c00.obj
+  - id: tile_r14_c01
+    row: 14
+    col: 1
+    x: -26000.000
+    y: -2000.000
+    z_min: -1415.884
+    z_max: -1234.208
+    z_range: 181.676
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c01.obj
+  - id: tile_r14_c02
+    row: 14
+    col: 2
+    x: -22000.000
+    y: -2000.000
+    z_min: -1452.250
+    z_max: -1279.063
+    z_range: 173.187
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c02.obj
+  - id: tile_r14_c03
+    row: 14
+    col: 3
+    x: -18000.000
+    y: -2000.000
+    z_min: -1473.746
+    z_max: -1177.777
+    z_range: 295.968
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c03.obj
+  - id: tile_r14_c04
+    row: 14
+    col: 4
+    x: -14000.000
+    y: -2000.000
+    z_min: -1558.977
+    z_max: -1052.538
+    z_range: 506.439
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c04.obj
+  - id: tile_r14_c05
+    row: 14
+    col: 5
+    x: -10000.000
+    y: -2000.000
+    z_min: -2458.060
+    z_max: -1469.762
+    z_range: 988.298
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c05.obj
+  - id: tile_r14_c06
+    row: 14
+    col: 6
+    x: -6000.000
+    y: -2000.000
+    z_min: -2631.418
+    z_max: -2308.371
+    z_range: 323.047
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c06.obj
+  - id: tile_r14_c07
+    row: 14
+    col: 7
+    x: -2000.000
+    y: -2000.000
+    z_min: -2631.418
+    z_max: -2397.651
+    z_range: 233.767
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c07.obj
+  - id: tile_r14_c08
+    row: 14
+    col: 8
+    x: 2000.000
+    y: -2000.000
+    z_min: -2637.926
+    z_max: -2424.588
+    z_range: 213.338
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c08.obj
+  - id: tile_r14_c09
+    row: 14
+    col: 9
+    x: 6000.000
+    y: -2000.000
+    z_min: -2540.590
+    z_max: -2331.779
+    z_range: 208.811
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c09.obj
+  - id: tile_r14_c10
+    row: 14
+    col: 10
+    x: 10000.000
+    y: -2000.000
+    z_min: -2506.326
+    z_max: -1645.554
+    z_range: 860.772
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c10.obj
+  - id: tile_r14_c11
+    row: 14
+    col: 11
+    x: 14000.000
+    y: -2000.000
+    z_min: -2205.663
+    z_max: -1630.095
+    z_range: 575.568
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c11.obj
+  - id: tile_r14_c12
+    row: 14
+    col: 12
+    x: 18000.000
+    y: -2000.000
+    z_min: -2393.817
+    z_max: -1553.534
+    z_range: 840.283
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c12.obj
+  - id: tile_r14_c13
+    row: 14
+    col: 13
+    x: 22000.000
+    y: -2000.000
+    z_min: -2371.247
+    z_max: -1527.552
+    z_range: 843.695
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c13.obj
+  - id: tile_r14_c14
+    row: 14
+    col: 14
+    x: 26000.000
+    y: -2000.000
+    z_min: -2486.573
+    z_max: -1897.357
+    z_range: 589.216
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c14.obj
+  - id: tile_r14_c15
+    row: 14
+    col: 15
+    x: 30000.000
+    y: -2000.000
+    z_min: -2428.883
+    z_max: -2003.928
+    z_range: 424.955
+    dem: data/processed/gazebo/tiles_4km/tile_r14_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r14_c15.obj
+  - id: tile_r15_c00
+    row: 15
+    col: 0
+    x: -30000.000
+    y: -6000.000
+    z_min: -2254.873
+    z_max: -1415.884
+    z_range: 838.989
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c00.obj
+  - id: tile_r15_c01
+    row: 15
+    col: 1
+    x: -26000.000
+    y: -6000.000
+    z_min: -1777.733
+    z_max: -1333.421
+    z_range: 444.312
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c01.obj
+  - id: tile_r15_c02
+    row: 15
+    col: 2
+    x: -22000.000
+    y: -6000.000
+    z_min: -1704.147
+    z_max: -1296.512
+    z_range: 407.635
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c02.obj
+  - id: tile_r15_c03
+    row: 15
+    col: 3
+    x: -18000.000
+    y: -6000.000
+    z_min: -1513.364
+    z_max: -1143.608
+    z_range: 369.756
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c03.obj
+  - id: tile_r15_c04
+    row: 15
+    col: 4
+    x: -14000.000
+    y: -6000.000
+    z_min: -1535.119
+    z_max: -1050.444
+    z_range: 484.675
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c04.obj
+  - id: tile_r15_c05
+    row: 15
+    col: 5
+    x: -10000.000
+    y: -6000.000
+    z_min: -2308.371
+    z_max: -1448.048
+    z_range: 860.323
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c05.obj
+  - id: tile_r15_c06
+    row: 15
+    col: 6
+    x: -6000.000
+    y: -6000.000
+    z_min: -2631.418
+    z_max: -2214.173
+    z_range: 417.245
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c06.obj
+  - id: tile_r15_c07
+    row: 15
+    col: 7
+    x: -2000.000
+    y: -6000.000
+    z_min: -2631.418
+    z_max: -2249.365
+    z_range: 382.053
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c07.obj
+  - id: tile_r15_c08
+    row: 15
+    col: 8
+    x: 2000.000
+    y: -6000.000
+    z_min: -2562.348
+    z_max: -2253.130
+    z_range: 309.218
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c08.obj
+  - id: tile_r15_c09
+    row: 15
+    col: 9
+    x: 6000.000
+    y: -6000.000
+    z_min: -2539.727
+    z_max: -2413.943
+    z_range: 125.784
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c09.obj
+  - id: tile_r15_c10
+    row: 15
+    col: 10
+    x: 10000.000
+    y: -6000.000
+    z_min: -2603.986
+    z_max: -1912.559
+    z_range: 691.427
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c10.obj
+  - id: tile_r15_c11
+    row: 15
+    col: 11
+    x: 14000.000
+    y: -6000.000
+    z_min: -2534.086
+    z_max: -1832.067
+    z_range: 702.020
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c11.obj
+  - id: tile_r15_c12
+    row: 15
+    col: 12
+    x: 18000.000
+    y: -6000.000
+    z_min: -2778.728
+    z_max: -2091.707
+    z_range: 687.021
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c12.obj
+  - id: tile_r15_c13
+    row: 15
+    col: 13
+    x: 22000.000
+    y: -6000.000
+    z_min: -2789.410
+    z_max: -2119.245
+    z_range: 670.166
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c13.obj
+  - id: tile_r15_c14
+    row: 15
+    col: 14
+    x: 26000.000
+    y: -6000.000
+    z_min: -2779.655
+    z_max: -2294.912
+    z_range: 484.743
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c14.obj
+  - id: tile_r15_c15
+    row: 15
+    col: 15
+    x: 30000.000
+    y: -6000.000
+    z_min: -2793.125
+    z_max: -2387.726
+    z_range: 405.399
+    dem: data/processed/gazebo/tiles_4km/tile_r15_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r15_c15.obj
+  - id: tile_r16_c00
+    row: 16
+    col: 0
+    x: -30000.000
+    y: -10000.000
+    z_min: -2456.585
+    z_max: -1777.733
+    z_range: 678.852
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c00.obj
+  - id: tile_r16_c01
+    row: 16
+    col: 1
+    x: -26000.000
+    y: -10000.000
+    z_min: -2063.853
+    z_max: -1698.864
+    z_range: 364.989
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c01.obj
+  - id: tile_r16_c02
+    row: 16
+    col: 2
+    x: -22000.000
+    y: -10000.000
+    z_min: -2153.791
+    z_max: -1513.364
+    z_range: 640.427
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c02.obj
+  - id: tile_r16_c03
+    row: 16
+    col: 3
+    x: -18000.000
+    y: -10000.000
+    z_min: -2009.530
+    z_max: -1181.384
+    z_range: 828.146
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c03.obj
+  - id: tile_r16_c04
+    row: 16
+    col: 4
+    x: -14000.000
+    y: -10000.000
+    z_min: -1670.392
+    z_max: -1123.538
+    z_range: 546.854
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c04.obj
+  - id: tile_r16_c05
+    row: 16
+    col: 5
+    x: -10000.000
+    y: -10000.000
+    z_min: -2217.647
+    z_max: -1535.119
+    z_range: 682.528
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c05.obj
+  - id: tile_r16_c06
+    row: 16
+    col: 6
+    x: -6000.000
+    y: -10000.000
+    z_min: -2268.234
+    z_max: -1993.675
+    z_range: 274.559
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c06.obj
+  - id: tile_r16_c07
+    row: 16
+    col: 7
+    x: -2000.000
+    y: -10000.000
+    z_min: -2327.094
+    z_max: -1970.626
+    z_range: 356.468
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c07.obj
+  - id: tile_r16_c08
+    row: 16
+    col: 8
+    x: 2000.000
+    y: -10000.000
+    z_min: -2413.943
+    z_max: -1972.314
+    z_range: 441.628
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c08.obj
+  - id: tile_r16_c09
+    row: 16
+    col: 9
+    x: 6000.000
+    y: -10000.000
+    z_min: -2545.923
+    z_max: -2234.969
+    z_range: 310.954
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c09.obj
+  - id: tile_r16_c10
+    row: 16
+    col: 10
+    x: 10000.000
+    y: -10000.000
+    z_min: -2568.847
+    z_max: -2393.778
+    z_range: 175.069
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c10.obj
+  - id: tile_r16_c11
+    row: 16
+    col: 11
+    x: 14000.000
+    y: -10000.000
+    z_min: -2536.946
+    z_max: -2344.773
+    z_range: 192.173
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c11.obj
+  - id: tile_r16_c12
+    row: 16
+    col: 12
+    x: 18000.000
+    y: -10000.000
+    z_min: -2752.798
+    z_max: -2478.038
+    z_range: 274.760
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c12.obj
+  - id: tile_r16_c13
+    row: 16
+    col: 13
+    x: 22000.000
+    y: -10000.000
+    z_min: -2775.699
+    z_max: -2669.053
+    z_range: 106.646
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c13.obj
+  - id: tile_r16_c14
+    row: 16
+    col: 14
+    x: 26000.000
+    y: -10000.000
+    z_min: -2775.699
+    z_max: -2666.079
+    z_range: 109.621
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c14.obj
+  - id: tile_r16_c15
+    row: 16
+    col: 15
+    x: 30000.000
+    y: -10000.000
+    z_min: -2795.938
+    z_max: -2703.058
+    z_range: 92.880
+    dem: data/processed/gazebo/tiles_4km/tile_r16_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r16_c15.obj
+  - id: tile_r17_c00
+    row: 17
+    col: 0
+    x: -30000.000
+    y: -14000.000
+    z_min: -2689.283
+    z_max: -2063.853
+    z_range: 625.430
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c00.obj
+  - id: tile_r17_c01
+    row: 17
+    col: 1
+    x: -26000.000
+    y: -14000.000
+    z_min: -2316.288
+    z_max: -2036.451
+    z_range: 279.837
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c01.obj
+  - id: tile_r17_c02
+    row: 17
+    col: 2
+    x: -22000.000
+    y: -14000.000
+    z_min: -2317.065
+    z_max: -2009.530
+    z_range: 307.535
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c02.obj
+  - id: tile_r17_c03
+    row: 17
+    col: 3
+    x: -18000.000
+    y: -14000.000
+    z_min: -2314.562
+    z_max: -1335.031
+    z_range: 979.531
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c03.obj
+  - id: tile_r17_c04
+    row: 17
+    col: 4
+    x: -14000.000
+    y: -14000.000
+    z_min: -1994.543
+    z_max: -1250.247
+    z_range: 744.296
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c04.obj
+  - id: tile_r17_c05
+    row: 17
+    col: 5
+    x: -10000.000
+    y: -14000.000
+    z_min: -2217.050
+    z_max: -1670.392
+    z_range: 546.658
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c05.obj
+  - id: tile_r17_c06
+    row: 17
+    col: 6
+    x: -6000.000
+    y: -14000.000
+    z_min: -2246.271
+    z_max: -1990.391
+    z_range: 255.880
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c06.obj
+  - id: tile_r17_c07
+    row: 17
+    col: 7
+    x: -2000.000
+    y: -14000.000
+    z_min: -2195.281
+    z_max: -1910.064
+    z_range: 285.217
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c07.obj
+  - id: tile_r17_c08
+    row: 17
+    col: 8
+    x: 2000.000
+    y: -14000.000
+    z_min: -2234.969
+    z_max: -1909.142
+    z_range: 325.827
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c08.obj
+  - id: tile_r17_c09
+    row: 17
+    col: 9
+    x: 6000.000
+    y: -14000.000
+    z_min: -2534.878
+    z_max: -2175.152
+    z_range: 359.726
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c09.obj
+  - id: tile_r17_c10
+    row: 17
+    col: 10
+    x: 10000.000
+    y: -14000.000
+    z_min: -2537.172
+    z_max: -2235.524
+    z_range: 301.648
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c10.obj
+  - id: tile_r17_c11
+    row: 17
+    col: 11
+    x: 14000.000
+    y: -14000.000
+    z_min: -2509.032
+    z_max: -2213.091
+    z_range: 295.941
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c11.obj
+  - id: tile_r17_c12
+    row: 17
+    col: 12
+    x: 18000.000
+    y: -14000.000
+    z_min: -2689.569
+    z_max: -2235.915
+    z_range: 453.654
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c12.obj
+  - id: tile_r17_c13
+    row: 17
+    col: 13
+    x: 22000.000
+    y: -14000.000
+    z_min: -2706.493
+    z_max: -2440.222
+    z_range: 266.271
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c13.obj
+  - id: tile_r17_c14
+    row: 17
+    col: 14
+    x: 26000.000
+    y: -14000.000
+    z_min: -2741.129
+    z_max: -2435.466
+    z_range: 305.663
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c14.obj
+  - id: tile_r17_c15
+    row: 17
+    col: 15
+    x: 30000.000
+    y: -14000.000
+    z_min: -2790.099
+    z_max: -2573.636
+    z_range: 216.463
+    dem: data/processed/gazebo/tiles_4km/tile_r17_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r17_c15.obj
+  - id: tile_r18_c00
+    row: 18
+    col: 0
+    x: -30000.000
+    y: -18000.000
+    z_min: -2725.534
+    z_max: -2316.027
+    z_range: 409.508
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c00.obj
+  - id: tile_r18_c01
+    row: 18
+    col: 1
+    x: -26000.000
+    y: -18000.000
+    z_min: -2527.160
+    z_max: -2296.989
+    z_range: 230.171
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c01.obj
+  - id: tile_r18_c02
+    row: 18
+    col: 2
+    x: -22000.000
+    y: -18000.000
+    z_min: -2469.545
+    z_max: -2143.601
+    z_range: 325.945
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c02.obj
+  - id: tile_r18_c03
+    row: 18
+    col: 3
+    x: -18000.000
+    y: -18000.000
+    z_min: -2333.928
+    z_max: -1658.654
+    z_range: 675.275
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c03.obj
+  - id: tile_r18_c04
+    row: 18
+    col: 4
+    x: -14000.000
+    y: -18000.000
+    z_min: -2027.856
+    z_max: -1603.896
+    z_range: 423.960
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c04.obj
+  - id: tile_r18_c05
+    row: 18
+    col: 5
+    x: -10000.000
+    y: -18000.000
+    z_min: -2132.391
+    z_max: -1943.816
+    z_range: 188.575
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c05.obj
+  - id: tile_r18_c06
+    row: 18
+    col: 6
+    x: -6000.000
+    y: -18000.000
+    z_min: -2189.678
+    z_max: -1952.253
+    z_range: 237.426
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c06.obj
+  - id: tile_r18_c07
+    row: 18
+    col: 7
+    x: -2000.000
+    y: -18000.000
+    z_min: -2249.684
+    z_max: -1894.489
+    z_range: 355.195
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c07.obj
+  - id: tile_r18_c08
+    row: 18
+    col: 8
+    x: 2000.000
+    y: -18000.000
+    z_min: -2175.152
+    z_max: -1860.582
+    z_range: 314.570
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c08.obj
+  - id: tile_r18_c09
+    row: 18
+    col: 9
+    x: 6000.000
+    y: -18000.000
+    z_min: -2343.497
+    z_max: -1953.473
+    z_range: 390.025
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c09.obj
+  - id: tile_r18_c10
+    row: 18
+    col: 10
+    x: 10000.000
+    y: -18000.000
+    z_min: -2368.073
+    z_max: -2075.187
+    z_range: 292.887
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c10.obj
+  - id: tile_r18_c11
+    row: 18
+    col: 11
+    x: 14000.000
+    y: -18000.000
+    z_min: -2263.430
+    z_max: -2121.119
+    z_range: 142.311
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c11.obj
+  - id: tile_r18_c12
+    row: 18
+    col: 12
+    x: 18000.000
+    y: -18000.000
+    z_min: -2567.286
+    z_max: -2138.727
+    z_range: 428.559
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c12.obj
+  - id: tile_r18_c13
+    row: 18
+    col: 13
+    x: 22000.000
+    y: -18000.000
+    z_min: -2578.032
+    z_max: -2402.558
+    z_range: 175.474
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c13.obj
+  - id: tile_r18_c14
+    row: 18
+    col: 14
+    x: 26000.000
+    y: -18000.000
+    z_min: -2604.582
+    z_max: -2407.459
+    z_range: 197.123
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c14.obj
+  - id: tile_r18_c15
+    row: 18
+    col: 15
+    x: 30000.000
+    y: -18000.000
+    z_min: -2720.625
+    z_max: -2416.188
+    z_range: 304.436
+    dem: data/processed/gazebo/tiles_4km/tile_r18_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r18_c15.obj
+  - id: tile_r19_c00
+    row: 19
+    col: 0
+    x: -30000.000
+    y: -22000.000
+    z_min: -2585.155
+    z_max: -1991.577
+    z_range: 593.577
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c00.obj
+  - id: tile_r19_c01
+    row: 19
+    col: 1
+    x: -26000.000
+    y: -22000.000
+    z_min: -2527.160
+    z_max: -2088.498
+    z_range: 438.663
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c01.obj
+  - id: tile_r19_c02
+    row: 19
+    col: 2
+    x: -22000.000
+    y: -22000.000
+    z_min: -2492.432
+    z_max: -1913.374
+    z_range: 579.058
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c02.obj
+  - id: tile_r19_c03
+    row: 19
+    col: 3
+    x: -18000.000
+    y: -22000.000
+    z_min: -2143.601
+    z_max: -1799.333
+    z_range: 344.268
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c03.obj
+  - id: tile_r19_c04
+    row: 19
+    col: 4
+    x: -14000.000
+    y: -22000.000
+    z_min: -2150.875
+    z_max: -1842.426
+    z_range: 308.450
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c04.obj
+  - id: tile_r19_c05
+    row: 19
+    col: 5
+    x: -10000.000
+    y: -22000.000
+    z_min: -2196.698
+    z_max: -1943.816
+    z_range: 252.882
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c05.obj
+  - id: tile_r19_c06
+    row: 19
+    col: 6
+    x: -6000.000
+    y: -22000.000
+    z_min: -2179.890
+    z_max: -1796.110
+    z_range: 383.780
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c06.obj
+  - id: tile_r19_c07
+    row: 19
+    col: 7
+    x: -2000.000
+    y: -22000.000
+    z_min: -1991.571
+    z_max: -1806.931
+    z_range: 184.640
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c07.obj
+  - id: tile_r19_c08
+    row: 19
+    col: 8
+    x: 2000.000
+    y: -22000.000
+    z_min: -1953.473
+    z_max: -1804.925
+    z_range: 148.547
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c08.obj
+  - id: tile_r19_c09
+    row: 19
+    col: 9
+    x: 6000.000
+    y: -22000.000
+    z_min: -2075.187
+    z_max: -1804.925
+    z_range: 270.261
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c09.obj
+  - id: tile_r19_c10
+    row: 19
+    col: 10
+    x: 10000.000
+    y: -22000.000
+    z_min: -2170.011
+    z_max: -1911.166
+    z_range: 258.846
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c10.obj
+  - id: tile_r19_c11
+    row: 19
+    col: 11
+    x: 14000.000
+    y: -22000.000
+    z_min: -2246.045
+    z_max: -2083.853
+    z_range: 162.193
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c11.obj
+  - id: tile_r19_c12
+    row: 19
+    col: 12
+    x: 18000.000
+    y: -22000.000
+    z_min: -2503.651
+    z_max: -2211.236
+    z_range: 292.415
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c12.obj
+  - id: tile_r19_c13
+    row: 19
+    col: 13
+    x: 22000.000
+    y: -22000.000
+    z_min: -2516.593
+    z_max: -2403.127
+    z_range: 113.465
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c13.obj
+  - id: tile_r19_c14
+    row: 19
+    col: 14
+    x: 26000.000
+    y: -22000.000
+    z_min: -2571.781
+    z_max: -2336.722
+    z_range: 235.059
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c14.obj
+  - id: tile_r19_c15
+    row: 19
+    col: 15
+    x: 30000.000
+    y: -22000.000
+    z_min: -2513.346
+    z_max: -2324.946
+    z_range: 188.401
+    dem: data/processed/gazebo/tiles_4km/tile_r19_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r19_c15.obj
+  - id: tile_r20_c00
+    row: 20
+    col: 0
+    x: -30000.000
+    y: -26000.000
+    z_min: -2275.668
+    z_max: -1584.670
+    z_range: 690.998
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c00.obj
+  - id: tile_r20_c01
+    row: 20
+    col: 1
+    x: -26000.000
+    y: -26000.000
+    z_min: -2239.034
+    z_max: -1680.551
+    z_range: 558.483
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c01.obj
+  - id: tile_r20_c02
+    row: 20
+    col: 2
+    x: -22000.000
+    y: -26000.000
+    z_min: -2242.760
+    z_max: -1869.421
+    z_range: 373.339
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c02.obj
+  - id: tile_r20_c03
+    row: 20
+    col: 3
+    x: -18000.000
+    y: -26000.000
+    z_min: -2140.045
+    z_max: -1863.930
+    z_range: 276.116
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c03.obj
+  - id: tile_r20_c04
+    row: 20
+    col: 4
+    x: -14000.000
+    y: -26000.000
+    z_min: -2247.944
+    z_max: -2062.898
+    z_range: 185.045
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c04.obj
+  - id: tile_r20_c05
+    row: 20
+    col: 5
+    x: -10000.000
+    y: -26000.000
+    z_min: -2242.437
+    z_max: -2010.825
+    z_range: 231.612
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c05.obj
+  - id: tile_r20_c06
+    row: 20
+    col: 6
+    x: -6000.000
+    y: -26000.000
+    z_min: -2077.453
+    z_max: -1813.902
+    z_range: 263.550
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c06.obj
+  - id: tile_r20_c07
+    row: 20
+    col: 7
+    x: -2000.000
+    y: -26000.000
+    z_min: -2092.166
+    z_max: -1818.710
+    z_range: 273.456
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c07.obj
+  - id: tile_r20_c08
+    row: 20
+    col: 8
+    x: 2000.000
+    y: -26000.000
+    z_min: -2075.930
+    z_max: -1788.760
+    z_range: 287.169
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c08.obj
+  - id: tile_r20_c09
+    row: 20
+    col: 9
+    x: 6000.000
+    y: -26000.000
+    z_min: -2077.196
+    z_max: -1778.975
+    z_range: 298.221
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c09.obj
+  - id: tile_r20_c10
+    row: 20
+    col: 10
+    x: 10000.000
+    y: -26000.000
+    z_min: -2155.295
+    z_max: -1943.396
+    z_range: 211.899
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c10.obj
+  - id: tile_r20_c11
+    row: 20
+    col: 11
+    x: 14000.000
+    y: -26000.000
+    z_min: -2251.481
+    z_max: -2083.853
+    z_range: 167.628
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c11.obj
+  - id: tile_r20_c12
+    row: 20
+    col: 12
+    x: 18000.000
+    y: -26000.000
+    z_min: -2475.828
+    z_max: -2230.770
+    z_range: 245.058
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c12.obj
+  - id: tile_r20_c13
+    row: 20
+    col: 13
+    x: 22000.000
+    y: -26000.000
+    z_min: -2510.838
+    z_max: -2289.099
+    z_range: 221.739
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c13.obj
+  - id: tile_r20_c14
+    row: 20
+    col: 14
+    x: 26000.000
+    y: -26000.000
+    z_min: -2535.289
+    z_max: -2272.284
+    z_range: 263.004
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c14.obj
+  - id: tile_r20_c15
+    row: 20
+    col: 15
+    x: 30000.000
+    y: -26000.000
+    z_min: -2440.364
+    z_max: -2288.104
+    z_range: 152.260
+    dem: data/processed/gazebo/tiles_4km/tile_r20_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r20_c15.obj
+  - id: tile_r21_c00
+    row: 21
+    col: 0
+    x: -30000.000
+    y: -30000.000
+    z_min: -2039.900
+    z_max: -1537.554
+    z_range: 502.346
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c00.obj
+  - id: tile_r21_c01
+    row: 21
+    col: 1
+    x: -26000.000
+    y: -30000.000
+    z_min: -1971.342
+    z_max: -1618.734
+    z_range: 352.608
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c01.obj
+  - id: tile_r21_c02
+    row: 21
+    col: 2
+    x: -22000.000
+    y: -30000.000
+    z_min: -1962.877
+    z_max: -1811.916
+    z_range: 150.962
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c02.obj
+  - id: tile_r21_c03
+    row: 21
+    col: 3
+    x: -18000.000
+    y: -30000.000
+    z_min: -2182.900
+    z_max: -1860.698
+    z_range: 322.202
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c03.obj
+  - id: tile_r21_c04
+    row: 21
+    col: 4
+    x: -14000.000
+    y: -30000.000
+    z_min: -2247.602
+    z_max: -2140.045
+    z_range: 107.556
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c04.obj
+  - id: tile_r21_c05
+    row: 21
+    col: 5
+    x: -10000.000
+    y: -30000.000
+    z_min: -2238.923
+    z_max: -1956.466
+    z_range: 282.457
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c05.obj
+  - id: tile_r21_c06
+    row: 21
+    col: 6
+    x: -6000.000
+    y: -30000.000
+    z_min: -2010.825
+    z_max: -1860.800
+    z_range: 150.025
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c06.obj
+  - id: tile_r21_c07
+    row: 21
+    col: 7
+    x: -2000.000
+    y: -30000.000
+    z_min: -2188.287
+    z_max: -1868.297
+    z_range: 319.989
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c07.obj
+  - id: tile_r21_c08
+    row: 21
+    col: 8
+    x: 2000.000
+    y: -30000.000
+    z_min: -2175.484
+    z_max: -1807.594
+    z_range: 367.890
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c08.obj
+  - id: tile_r21_c09
+    row: 21
+    col: 9
+    x: 6000.000
+    y: -30000.000
+    z_min: -2186.959
+    z_max: -1796.532
+    z_range: 390.427
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c09.obj
+  - id: tile_r21_c10
+    row: 21
+    col: 10
+    x: 10000.000
+    y: -30000.000
+    z_min: -2289.826
+    z_max: -2077.196
+    z_range: 212.630
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c10.obj
+  - id: tile_r21_c11
+    row: 21
+    col: 11
+    x: 14000.000
+    y: -30000.000
+    z_min: -2262.610
+    z_max: -2136.421
+    z_range: 126.189
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c11.obj
+  - id: tile_r21_c12
+    row: 21
+    col: 12
+    x: 18000.000
+    y: -30000.000
+    z_min: -2440.645
+    z_max: -2206.779
+    z_range: 233.866
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c12.obj
+  - id: tile_r21_c13
+    row: 21
+    col: 13
+    x: 22000.000
+    y: -30000.000
+    z_min: -2474.088
+    z_max: -2178.960
+    z_range: 295.129
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c13.obj
+  - id: tile_r21_c14
+    row: 21
+    col: 14
+    x: 26000.000
+    y: -30000.000
+    z_min: -2474.088
+    z_max: -2201.557
+    z_range: 272.531
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c14.obj
+  - id: tile_r21_c15
+    row: 21
+    col: 15
+    x: 30000.000
+    y: -30000.000
+    z_min: -2333.942
+    z_max: -2215.061
+    z_range: 118.881
+    dem: data/processed/gazebo/tiles_4km/tile_r21_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r21_c15.obj
+  - id: tile_r22_c00
+    row: 22
+    col: 0
+    x: -30000.000
+    y: -34000.000
+    z_min: -2018.335
+    z_max: -1565.533
+    z_range: 452.801
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c00.obj
+  - id: tile_r22_c01
+    row: 22
+    col: 1
+    x: -26000.000
+    y: -34000.000
+    z_min: -1923.250
+    z_max: -1603.800
+    z_range: 319.450
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c01.obj
+  - id: tile_r22_c02
+    row: 22
+    col: 2
+    x: -22000.000
+    y: -34000.000
+    z_min: -2047.872
+    z_max: -1809.947
+    z_range: 237.925
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c02.obj
+  - id: tile_r22_c03
+    row: 22
+    col: 3
+    x: -18000.000
+    y: -34000.000
+    z_min: -2223.028
+    z_max: -1914.323
+    z_range: 308.705
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c03.obj
+  - id: tile_r22_c04
+    row: 22
+    col: 4
+    x: -14000.000
+    y: -34000.000
+    z_min: -2238.134
+    z_max: -2147.046
+    z_range: 91.088
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c04.obj
+  - id: tile_r22_c05
+    row: 22
+    col: 5
+    x: -10000.000
+    y: -34000.000
+    z_min: -2207.332
+    z_max: -1844.689
+    z_range: 362.643
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c05.obj
+  - id: tile_r22_c06
+    row: 22
+    col: 6
+    x: -6000.000
+    y: -34000.000
+    z_min: -2019.244
+    z_max: -1832.245
+    z_range: 186.999
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c06.obj
+  - id: tile_r22_c07
+    row: 22
+    col: 7
+    x: -2000.000
+    y: -34000.000
+    z_min: -2191.683
+    z_max: -1934.651
+    z_range: 257.032
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c07.obj
+  - id: tile_r22_c08
+    row: 22
+    col: 8
+    x: 2000.000
+    y: -34000.000
+    z_min: -2175.746
+    z_max: -1804.748
+    z_range: 370.997
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c08.obj
+  - id: tile_r22_c09
+    row: 22
+    col: 9
+    x: 6000.000
+    y: -34000.000
+    z_min: -2204.625
+    z_max: -1806.429
+    z_range: 398.197
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c09.obj
+  - id: tile_r22_c10
+    row: 22
+    col: 10
+    x: 10000.000
+    y: -34000.000
+    z_min: -2398.631
+    z_max: -2186.959
+    z_range: 211.672
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c10.obj
+  - id: tile_r22_c11
+    row: 22
+    col: 11
+    x: 14000.000
+    y: -34000.000
+    z_min: -2398.631
+    z_max: -2241.056
+    z_range: 157.575
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c11.obj
+  - id: tile_r22_c12
+    row: 22
+    col: 12
+    x: 18000.000
+    y: -34000.000
+    z_min: -2321.644
+    z_max: -2048.811
+    z_range: 272.833
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c12.obj
+  - id: tile_r22_c13
+    row: 22
+    col: 13
+    x: 22000.000
+    y: -34000.000
+    z_min: -2456.085
+    z_max: -2084.113
+    z_range: 371.973
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c13.obj
+  - id: tile_r22_c14
+    row: 22
+    col: 14
+    x: 26000.000
+    y: -34000.000
+    z_min: -2430.214
+    z_max: -2208.390
+    z_range: 221.824
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c14.obj
+  - id: tile_r22_c15
+    row: 22
+    col: 15
+    x: 30000.000
+    y: -34000.000
+    z_min: -2389.690
+    z_max: -2194.928
+    z_range: 194.762
+    dem: data/processed/gazebo/tiles_4km/tile_r22_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r22_c15.obj
+  - id: tile_r23_c00
+    row: 23
+    col: 0
+    x: -30000.000
+    y: -38000.000
+    z_min: -1964.826
+    z_max: -1609.365
+    z_range: 355.461
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c00.obj
+  - id: tile_r23_c01
+    row: 23
+    col: 1
+    x: -26000.000
+    y: -38000.000
+    z_min: -2104.152
+    z_max: -1613.622
+    z_range: 490.530
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c01.obj
+  - id: tile_r23_c02
+    row: 23
+    col: 2
+    x: -22000.000
+    y: -38000.000
+    z_min: -2104.152
+    z_max: -1923.250
+    z_range: 180.903
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c02.obj
+  - id: tile_r23_c03
+    row: 23
+    col: 3
+    x: -18000.000
+    y: -38000.000
+    z_min: -2237.905
+    z_max: -1968.293
+    z_range: 269.611
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c03.obj
+  - id: tile_r23_c04
+    row: 23
+    col: 4
+    x: -14000.000
+    y: -38000.000
+    z_min: -2244.919
+    z_max: -2014.440
+    z_range: 230.479
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c04.obj
+  - id: tile_r23_c05
+    row: 23
+    col: 5
+    x: -10000.000
+    y: -38000.000
+    z_min: -2147.046
+    z_max: -1823.079
+    z_range: 323.966
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c05.obj
+  - id: tile_r23_c06
+    row: 23
+    col: 6
+    x: -6000.000
+    y: -38000.000
+    z_min: -2061.966
+    z_max: -1816.832
+    z_range: 245.134
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c06.obj
+  - id: tile_r23_c07
+    row: 23
+    col: 7
+    x: -2000.000
+    y: -38000.000
+    z_min: -2086.092
+    z_max: -1826.923
+    z_range: 259.169
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c07.obj
+  - id: tile_r23_c08
+    row: 23
+    col: 8
+    x: 2000.000
+    y: -38000.000
+    z_min: -2040.872
+    z_max: -1724.810
+    z_range: 316.062
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c08.obj
+  - id: tile_r23_c09
+    row: 23
+    col: 9
+    x: 6000.000
+    y: -38000.000
+    z_min: -2261.428
+    z_max: -1813.855
+    z_range: 447.573
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c09.obj
+  - id: tile_r23_c10
+    row: 23
+    col: 10
+    x: 10000.000
+    y: -38000.000
+    z_min: -2399.412
+    z_max: -2195.746
+    z_range: 203.667
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c10.obj
+  - id: tile_r23_c11
+    row: 23
+    col: 11
+    x: 14000.000
+    y: -38000.000
+    z_min: -2404.665
+    z_max: -2190.585
+    z_range: 214.080
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c11.obj
+  - id: tile_r23_c12
+    row: 23
+    col: 12
+    x: 18000.000
+    y: -38000.000
+    z_min: -2321.644
+    z_max: -1928.924
+    z_range: 392.720
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c12.obj
+  - id: tile_r23_c13
+    row: 23
+    col: 13
+    x: 22000.000
+    y: -38000.000
+    z_min: -2553.304
+    z_max: -2168.214
+    z_range: 385.090
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c13.obj
+  - id: tile_r23_c14
+    row: 23
+    col: 14
+    x: 26000.000
+    y: -38000.000
+    z_min: -2545.745
+    z_max: -2233.928
+    z_range: 311.816
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c14.obj
+  - id: tile_r23_c15
+    row: 23
+    col: 15
+    x: 30000.000
+    y: -38000.000
+    z_min: -2414.000
+    z_max: -2239.755
+    z_range: 174.245
+    dem: data/processed/gazebo/tiles_4km/tile_r23_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r23_c15.obj
+  - id: tile_r24_c00
+    row: 24
+    col: 0
+    x: -30000.000
+    y: -42000.000
+    z_min: -2046.414
+    z_max: -1658.518
+    z_range: 387.897
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c00.obj
+  - id: tile_r24_c01
+    row: 24
+    col: 1
+    x: -26000.000
+    y: -42000.000
+    z_min: -2105.309
+    z_max: -1896.994
+    z_range: 208.315
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c01.obj
+  - id: tile_r24_c02
+    row: 24
+    col: 2
+    x: -22000.000
+    y: -42000.000
+    z_min: -2105.309
+    z_max: -1814.872
+    z_range: 290.437
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c02.obj
+  - id: tile_r24_c03
+    row: 24
+    col: 3
+    x: -18000.000
+    y: -42000.000
+    z_min: -2205.174
+    z_max: -1819.238
+    z_range: 385.936
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c03.obj
+  - id: tile_r24_c04
+    row: 24
+    col: 4
+    x: -14000.000
+    y: -42000.000
+    z_min: -2210.811
+    z_max: -1860.258
+    z_range: 350.553
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c04.obj
+  - id: tile_r24_c05
+    row: 24
+    col: 5
+    x: -10000.000
+    y: -42000.000
+    z_min: -2070.611
+    z_max: -1839.622
+    z_range: 230.989
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c05.obj
+  - id: tile_r24_c06
+    row: 24
+    col: 6
+    x: -6000.000
+    y: -42000.000
+    z_min: -2120.516
+    z_max: -1950.444
+    z_range: 170.072
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c06.obj
+  - id: tile_r24_c07
+    row: 24
+    col: 7
+    x: -2000.000
+    y: -42000.000
+    z_min: -2110.864
+    z_max: -1754.367
+    z_range: 356.497
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c07.obj
+  - id: tile_r24_c08
+    row: 24
+    col: 8
+    x: 2000.000
+    y: -42000.000
+    z_min: -2070.803
+    z_max: -1712.606
+    z_range: 358.197
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c08.obj
+  - id: tile_r24_c09
+    row: 24
+    col: 9
+    x: 6000.000
+    y: -42000.000
+    z_min: -2342.753
+    z_max: -1848.317
+    z_range: 494.437
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c09.obj
+  - id: tile_r24_c10
+    row: 24
+    col: 10
+    x: 10000.000
+    y: -42000.000
+    z_min: -2425.072
+    z_max: -1975.946
+    z_range: 449.126
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c10.obj
+  - id: tile_r24_c11
+    row: 24
+    col: 11
+    x: 14000.000
+    y: -42000.000
+    z_min: -2462.117
+    z_max: -2090.141
+    z_range: 371.976
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c11.obj
+  - id: tile_r24_c12
+    row: 24
+    col: 12
+    x: 18000.000
+    y: -42000.000
+    z_min: -2272.024
+    z_max: -1976.859
+    z_range: 295.165
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c12.obj
+  - id: tile_r24_c13
+    row: 24
+    col: 13
+    x: 22000.000
+    y: -42000.000
+    z_min: -2552.063
+    z_max: -2043.104
+    z_range: 508.959
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c13.obj
+  - id: tile_r24_c14
+    row: 24
+    col: 14
+    x: 26000.000
+    y: -42000.000
+    z_min: -2524.894
+    z_max: -2164.179
+    z_range: 360.715
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c14.obj
+  - id: tile_r24_c15
+    row: 24
+    col: 15
+    x: 30000.000
+    y: -42000.000
+    z_min: -2356.943
+    z_max: -2170.973
+    z_range: 185.969
+    dem: data/processed/gazebo/tiles_4km/tile_r24_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r24_c15.obj
+  - id: tile_r25_c00
+    row: 25
+    col: 0
+    x: -30000.000
+    y: -46000.000
+    z_min: -2052.922
+    z_max: -1648.636
+    z_range: 404.286
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c00.obj
+  - id: tile_r25_c01
+    row: 25
+    col: 1
+    x: -26000.000
+    y: -46000.000
+    z_min: -2054.088
+    z_max: -1697.236
+    z_range: 356.852
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c01.obj
+  - id: tile_r25_c02
+    row: 25
+    col: 2
+    x: -22000.000
+    y: -46000.000
+    z_min: -1940.474
+    z_max: -1681.538
+    z_range: 258.936
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c02.obj
+  - id: tile_r25_c03
+    row: 25
+    col: 3
+    x: -18000.000
+    y: -46000.000
+    z_min: -2250.867
+    z_max: -1789.642
+    z_range: 461.225
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c03.obj
+  - id: tile_r25_c04
+    row: 25
+    col: 4
+    x: -14000.000
+    y: -46000.000
+    z_min: -2257.353
+    z_max: -1926.997
+    z_range: 330.356
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c04.obj
+  - id: tile_r25_c05
+    row: 25
+    col: 5
+    x: -10000.000
+    y: -46000.000
+    z_min: -2166.155
+    z_max: -1915.633
+    z_range: 250.522
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c05.obj
+  - id: tile_r25_c06
+    row: 25
+    col: 6
+    x: -6000.000
+    y: -46000.000
+    z_min: -2129.947
+    z_max: -1914.530
+    z_range: 215.417
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c06.obj
+  - id: tile_r25_c07
+    row: 25
+    col: 7
+    x: -2000.000
+    y: -46000.000
+    z_min: -2111.369
+    z_max: -1794.294
+    z_range: 317.075
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c07.obj
+  - id: tile_r25_c08
+    row: 25
+    col: 8
+    x: 2000.000
+    y: -46000.000
+    z_min: -2220.898
+    z_max: -1790.026
+    z_range: 430.871
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c08.obj
+  - id: tile_r25_c09
+    row: 25
+    col: 9
+    x: 6000.000
+    y: -46000.000
+    z_min: -2453.368
+    z_max: -2009.297
+    z_range: 444.070
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c09.obj
+  - id: tile_r25_c10
+    row: 25
+    col: 10
+    x: 10000.000
+    y: -46000.000
+    z_min: -2445.394
+    z_max: -1666.873
+    z_range: 778.521
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c10.obj
+  - id: tile_r25_c11
+    row: 25
+    col: 11
+    x: 14000.000
+    y: -46000.000
+    z_min: -2324.435
+    z_max: -1753.986
+    z_range: 570.449
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c11.obj
+  - id: tile_r25_c12
+    row: 25
+    col: 12
+    x: 18000.000
+    y: -46000.000
+    z_min: -2337.325
+    z_max: -2000.821
+    z_range: 336.504
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c12.obj
+  - id: tile_r25_c13
+    row: 25
+    col: 13
+    x: 22000.000
+    y: -46000.000
+    z_min: -2462.909
+    z_max: -2077.184
+    z_range: 385.726
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c13.obj
+  - id: tile_r25_c14
+    row: 25
+    col: 14
+    x: 26000.000
+    y: -46000.000
+    z_min: -2406.564
+    z_max: -2132.758
+    z_range: 273.806
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c14.obj
+  - id: tile_r25_c15
+    row: 25
+    col: 15
+    x: 30000.000
+    y: -46000.000
+    z_min: -2395.960
+    z_max: -2168.546
+    z_range: 227.414
+    dem: data/processed/gazebo/tiles_4km/tile_r25_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r25_c15.obj
+  - id: tile_r26_c00
+    row: 26
+    col: 0
+    x: -30000.000
+    y: -50000.000
+    z_min: -1959.290
+    z_max: -1489.144
+    z_range: 470.146
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c00.obj
+  - id: tile_r26_c01
+    row: 26
+    col: 1
+    x: -26000.000
+    y: -50000.000
+    z_min: -1908.083
+    z_max: -1478.989
+    z_range: 429.094
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c01.obj
+  - id: tile_r26_c02
+    row: 26
+    col: 2
+    x: -22000.000
+    y: -50000.000
+    z_min: -1789.642
+    z_max: -1533.409
+    z_range: 256.232
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c02.obj
+  - id: tile_r26_c03
+    row: 26
+    col: 3
+    x: -18000.000
+    y: -50000.000
+    z_min: -2253.976
+    z_max: -1551.885
+    z_range: 702.091
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c03.obj
+  - id: tile_r26_c04
+    row: 26
+    col: 4
+    x: -14000.000
+    y: -50000.000
+    z_min: -2260.230
+    z_max: -2005.291
+    z_range: 254.940
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c04.obj
+  - id: tile_r26_c05
+    row: 26
+    col: 5
+    x: -10000.000
+    y: -50000.000
+    z_min: -2174.250
+    z_max: -2031.519
+    z_range: 142.732
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c05.obj
+  - id: tile_r26_c06
+    row: 26
+    col: 6
+    x: -6000.000
+    y: -50000.000
+    z_min: -2115.470
+    z_max: -1721.491
+    z_range: 393.979
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c06.obj
+  - id: tile_r26_c07
+    row: 26
+    col: 7
+    x: -2000.000
+    y: -50000.000
+    z_min: -2099.023
+    z_max: -1757.102
+    z_range: 341.921
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c07.obj
+  - id: tile_r26_c08
+    row: 26
+    col: 8
+    x: 2000.000
+    y: -50000.000
+    z_min: -2236.604
+    z_max: -1872.273
+    z_range: 364.331
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c08.obj
+  - id: tile_r26_c09
+    row: 26
+    col: 9
+    x: 6000.000
+    y: -50000.000
+    z_min: -2456.651
+    z_max: -1847.646
+    z_range: 609.005
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c09.obj
+  - id: tile_r26_c10
+    row: 26
+    col: 10
+    x: 10000.000
+    y: -50000.000
+    z_min: -2445.394
+    z_max: -1673.962
+    z_range: 771.432
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c10.obj
+  - id: tile_r26_c11
+    row: 26
+    col: 11
+    x: 14000.000
+    y: -50000.000
+    z_min: -2298.570
+    z_max: -1796.598
+    z_range: 501.972
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c11.obj
+  - id: tile_r26_c12
+    row: 26
+    col: 12
+    x: 18000.000
+    y: -50000.000
+    z_min: -2335.910
+    z_max: -2056.292
+    z_range: 279.617
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c12.obj
+  - id: tile_r26_c13
+    row: 26
+    col: 13
+    x: 22000.000
+    y: -50000.000
+    z_min: -2464.794
+    z_max: -1984.469
+    z_range: 480.325
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c13.obj
+  - id: tile_r26_c14
+    row: 26
+    col: 14
+    x: 26000.000
+    y: -50000.000
+    z_min: -2314.385
+    z_max: -1995.962
+    z_range: 318.423
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c14.obj
+  - id: tile_r26_c15
+    row: 26
+    col: 15
+    x: 30000.000
+    y: -50000.000
+    z_min: -2391.471
+    z_max: -2152.633
+    z_range: 238.838
+    dem: data/processed/gazebo/tiles_4km/tile_r26_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r26_c15.obj
+  - id: tile_r27_c00
+    row: 27
+    col: 0
+    x: -30000.000
+    y: -54000.000
+    z_min: -1505.940
+    z_max: -1239.581
+    z_range: 266.359
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c00.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c00.obj
+  - id: tile_r27_c01
+    row: 27
+    col: 1
+    x: -26000.000
+    y: -54000.000
+    z_min: -1617.000
+    z_max: -1446.522
+    z_range: 170.478
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c01.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c01.obj
+  - id: tile_r27_c02
+    row: 27
+    col: 2
+    x: -22000.000
+    y: -54000.000
+    z_min: -1935.808
+    z_max: -1533.417
+    z_range: 402.391
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c02.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c02.obj
+  - id: tile_r27_c03
+    row: 27
+    col: 3
+    x: -18000.000
+    y: -54000.000
+    z_min: -2047.181
+    z_max: -1549.699
+    z_range: 497.482
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c03.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c03.obj
+  - id: tile_r27_c04
+    row: 27
+    col: 4
+    x: -14000.000
+    y: -54000.000
+    z_min: -2147.670
+    z_max: -1958.829
+    z_range: 188.841
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c04.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c04.obj
+  - id: tile_r27_c05
+    row: 27
+    col: 5
+    x: -10000.000
+    y: -54000.000
+    z_min: -2117.399
+    z_max: -1938.261
+    z_range: 179.139
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c05.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c05.obj
+  - id: tile_r27_c06
+    row: 27
+    col: 6
+    x: -6000.000
+    y: -54000.000
+    z_min: -2126.743
+    z_max: -1715.973
+    z_range: 410.770
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c06.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c06.obj
+  - id: tile_r27_c07
+    row: 27
+    col: 7
+    x: -2000.000
+    y: -54000.000
+    z_min: -2075.991
+    z_max: -1715.427
+    z_range: 360.564
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c07.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c07.obj
+  - id: tile_r27_c08
+    row: 27
+    col: 8
+    x: 2000.000
+    y: -54000.000
+    z_min: -2386.747
+    z_max: -1865.168
+    z_range: 521.579
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c08.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c08.obj
+  - id: tile_r27_c09
+    row: 27
+    col: 9
+    x: 6000.000
+    y: -54000.000
+    z_min: -2546.238
+    z_max: -1880.651
+    z_range: 665.588
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c09.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c09.obj
+  - id: tile_r27_c10
+    row: 27
+    col: 10
+    x: 10000.000
+    y: -54000.000
+    z_min: -2332.971
+    z_max: -1829.643
+    z_range: 503.329
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c10.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c10.obj
+  - id: tile_r27_c11
+    row: 27
+    col: 11
+    x: 14000.000
+    y: -54000.000
+    z_min: -2356.732
+    z_max: -2154.765
+    z_range: 201.968
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c11.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c11.obj
+  - id: tile_r27_c12
+    row: 27
+    col: 12
+    x: 18000.000
+    y: -54000.000
+    z_min: -2361.568
+    z_max: -2175.255
+    z_range: 186.313
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c12.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c12.obj
+  - id: tile_r27_c13
+    row: 27
+    col: 13
+    x: 22000.000
+    y: -54000.000
+    z_min: -2431.510
+    z_max: -1955.755
+    z_range: 475.756
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c13.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c13.obj
+  - id: tile_r27_c14
+    row: 27
+    col: 14
+    x: 26000.000
+    y: -54000.000
+    z_min: -2477.762
+    z_max: -1983.474
+    z_range: 494.288
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c14.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c14.obj
+  - id: tile_r27_c15
+    row: 27
+    col: 15
+    x: 30000.000
+    y: -54000.000
+    z_min: -2523.298
+    z_max: -2198.850
+    z_range: 324.448
+    dem: data/processed/gazebo/tiles_4km/tile_r27_c15.tif
+    mesh: data/processed/gazebo/tiles_4km/tile_r27_c15.obj

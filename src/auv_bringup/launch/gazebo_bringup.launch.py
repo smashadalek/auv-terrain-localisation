@@ -20,6 +20,12 @@ def generate_launch_description():
         'auv.rviz'
     ])
 
+    terrain_config = PathJoinSubstitution([
+        FindPackageShare("auv_bringup"),
+        "config",
+        "terrain_manager.yaml",
+    ])
+
     gazebo = ExecuteProcess(
         cmd=[
             'gz',
@@ -36,7 +42,13 @@ def generate_launch_description():
         arguments=[
             '/simulation/ground_truth_pose'
             '@geometry_msgs/msg/PoseStamped'
-            '[gz.msgs.Pose'
+            '[gz.msgs.Pose',
+
+            '/world/auv_world/create'
+            '@ros_gz_interfaces/srv/SpawnEntity',
+
+            '/world/auv_world/remove'
+            '@ros_gz_interfaces/srv/DeleteEntity',
         ],
         output='screen'
     )
@@ -72,10 +84,21 @@ def generate_launch_description():
         output='screen'
     )
 
+    terrain_manager = Node(
+        package="auv_terrain_manager",
+        executable="terrain_manager",
+        name="terrain_manager",
+        output="screen",
+        parameters=[
+            terrain_config,
+        ],
+    )
+
     return LaunchDescription([
         gazebo,
         ground_truth_bridge,
         map_world_tf,
         visualisation,
         rviz,
+        terrain_manager,
     ])
